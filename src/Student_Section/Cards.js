@@ -1,6 +1,7 @@
 import React from 'react';
 import './style.css';
 import './avatar.jpg';
+
 export default function cards() {
   return (
     <div className='all'>
@@ -19,15 +20,15 @@ export default function cards() {
 		
 		<div className="social-icons">
 			<a className="social-icon" href="/" target="_blank">
-				<i className="fa fa-instagram icon"></i>
+				<i class="fa-brands fa-instagram"></i>
 			</a>
 			
 			<a className="social-icon" href="/" target="_blank">
-				<i className="fa fa-youtube-play icon"></i>
+				<i class="fa-brands fa-youtube"></i>
 			</a>
 			
 			<a className="social-icon" href="/" target="_blank">
-				<i className="fa fa-twitter icon"></i>
+				<i class="fa-brands fa-twitter"></i>
 			</a>
 		</div>
 	</div>

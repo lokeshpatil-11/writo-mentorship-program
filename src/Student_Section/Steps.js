@@ -27,14 +27,14 @@ export default function Steps() {
   return (
     <div>
         <h1 className='heading'>Start Mentorship today. You'll never look back.</h1>
-        <Carousel responsive={responsive} showDots={true} autoPlay={true} autoPlaySpeed={2500}  infinite={true}>
+        <Carousel className="step-container" responsive={responsive} showDots={true} autoPlay={true} autoPlaySpeed={2500}  infinite={true} >
         <div className='box'>
             <h3>Card</h3>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
             Eligendi quia, omnis praesentium, qui vero incidunt aspernatur 
             minus numquam iusto pariatur voluptatibus fugit beatae expedita sed?</p>
             <a href="/"><button className='btn'>Know More</button></a>
-            <span className='count'>1</span>
+            <span className='count'>Step-1</span>
         </div>
 
         <div className='box b2'>
@@ -43,7 +43,7 @@ export default function Steps() {
             Eligendi quia, omnis praesentium, qui vero incidunt aspernatur 
             minus numquam iusto pariatur voluptatibus fugit beatae expedita sed?</p>
             <a href="/"><button className='btn'>Know More</button></a>
-            <span className='count'>2</span>
+            <span className='count'>Step-2</span>
         </div>
 
         <div className='box b3'>
@@ -52,7 +52,7 @@ export default function Steps() {
             Eligendi quia, omnis praesentium, qui vero incidunt aspernatur 
             minus numquam iusto pariatur voluptatibus fugit beatae expedita sed?</p>
             <a href="/"><button className='btn'>Know More</button></a>
-            <span className='count'>3</span>
+            <span className='count'>Step-3</span>
         </div>
 
         <div className='box b4'>
@@ -61,7 +61,7 @@ export default function Steps() {
             Eligendi quia, omnis praesentium, qui vero incidunt aspernatur 
             minus numquam iusto pariatur voluptatibus fugit beatae expedita sed?</p>
             <a href="/"><button className='btn'>Know More</button></a>
-            <span className='count'>4</span>
+            <span className='count'>Step-4</span>
         </div>
 </Carousel>
     </div>

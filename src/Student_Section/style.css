@@ -1,3 +1,7 @@
+body{
+	background: #fdfbfb;
+
+}
 .all {
 	/* height: 100vh; */
 	margin: 0;
@@ -179,6 +183,7 @@
 	border-radius: 50%;
 	text-decoration: none;
 }
+
 .card .card-content .social-icons .social-icon:nth-child(1)::before {
 	animation-delay: 2.1s;
 }
@@ -386,7 +391,7 @@
 	position: absolute;
 	top: 15px;
 	right: 30px;
-	font-size: 50px;
+	font-size: 25px;
 	font-weight: bold;
 	color: #fff;
 }
@@ -425,6 +430,102 @@
 	background-color: rgba(0, 0, 0, .1);
 }
 
+/* Overview Section Styling */
+.container {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+  }
+  
+  .left {
+	flex: 1;
+	padding-right: 50px;
+  }
+  
+  .left .content {
+	display: flex;
+	flex-direction: column;
+  }
+  
+  .left h1 {
+	order: 1;
+	font-size: 50px;
+	font-weight: 600;
+	text-align: left;
+	padding-left: 0;
+  }
+  
+  .left p {
+	order: 2;
+	text-align: left;
+	font-size: 18px;
+  }
+  
+  .left button {
+	order: 3;
+	width: 30%;
+	height: 10vh;
+	background: #1ab79d;
+	font-size: 15px;
+	border-radius: 30px;
+	color: #fff;
+  }
+  .left button:hover{
+	cursor: pointer;
+	background: #fff;
+	color: #252029;
+  }
+  .right {
+	flex: 1;
+  }
+  
+  .row {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+	padding-top: 50px;
+    padding-bottom: 20px;
+  }
+  
+  .stat {
+	width: calc(50% - 10px); /* Two divs in a row with margin in between */
+	display: flex;
+	align-items: center;
+	/* padding: 80px; */
+  }
+  
+  .circle{
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	background: #1ab79d;
+  }
+  .stat i {
+	font-size: 18px;
+	text-align: center;
+	padding-top: 10px;
+	color: #fff;
+  }
+  
+  .stat h1 {
+	font-size: 26px;
+	margin: 0;
+  }
+  
+  .stat p {
+	font-size: 18px;
+	text-align: center;
+	margin: 0;
+  }
+  .react-multiple-carousel__arrow--left {
+    left: calc(0% + 1px) !important;
+}
+.react-multiple-carousel__arrow--right {
+    right: calc(1% + 1px) !important;
+}
+  /* .con{
+	padding-left: 10px;
+  } */
 @media screen and (max-width: 480px){
 
 	.heading{
@@ -432,5 +533,69 @@
 	}
 	.react-multi-carousel-list{
 		margin-left: 15px;
+	}
+	.container{
+		flex-direction: column;
+	}
+	.left{
+		padding-right: 0;
+	}
+	.left h1 {
+		font-size: 25px;
+	}
+	.left p {
+		font-size: 16px;
+		margin-top: -5px;
+		margin-right: 10px;
+
+	}
+	.left button {
+		height: 5vh;
+		font-size: 10px;
+		
+	}
+	.row {
+		margin-top: 23px;
+		padding-top: 0;
+	}
+	.circle {
+		width: 50px;
+	}
+	.stat h1 {
+		font-size: 22px;
+	}
+	.stat p {
+		font-size: 13px;
+	}
+}
+
+@media screen and (max-width: 900px){
+	.left{
+		padding-left: 20px;
+
+	}
+	.left h1 {
+		font-size: 30px;
+	}
+	.left p {
+		font-size: 16px;
+		margin-top: 0px;
+	}
+	.left button {
+		height: 5vh;
+		font-size: 13px;
+		border-radius: 30px;
+		color: #fff;
+	}
+	.row {
+		margin-top: 0px;
+		padding-top: 20px;
+		padding-bottom: 50px;
+	}
+	.stat h1 {
+		font-size: 23px;
+	}
+	.stat p {
+		font-size: 13px;
 	}
 }

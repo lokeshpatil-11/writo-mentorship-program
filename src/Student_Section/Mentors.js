@@ -25,14 +25,14 @@ const responsive = {
 export default function Mentors() {
     return (
         <div>
-            <Carousel responsive={responsive} showDots={true} autoPlay={true} autoPlaySpeed={2500}  infinite={true}
->
-                <Cards/>
-                <Cards/>
-                <Cards/>
-                <Cards/>
-                <Cards/>
-                <Cards/>
+            <Carousel responsive={responsive} showDots={true} autoPlay={true} autoPlaySpeed={2500} infinite={true}
+            >
+                <Cards />
+                <Cards />
+                <Cards />
+                <Cards />
+                <Cards />
+                <Cards />
             </Carousel>
         </div>
     )
