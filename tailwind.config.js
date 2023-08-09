@@ -42,7 +42,25 @@ module.exports = {
             visibility: "hidden",
           },
           "100%": {
-            width: "110%",
+            width: "105%",
+          },
+        },
+        blink: {
+          "50%": {
+            borderColor: "transparent",
+          },
+          "100%": {
+            borderColor: "white",
+          },
+        },
+
+        type: {
+          "0%": {
+            width: "0%",
+            visibility: "hidden",
+          },
+          "100%": {
+            width: "70%",
           },
         },
         blink: {
@@ -54,11 +72,15 @@ module.exports = {
           },
         },
       },
+
       animation: {
-        typing: "typing 3.5s steps(40) infinite alternate, blink .7s infinite",
+        type: "type 3.5s steps(35) infinite alternate, blink .7s infinite",
+        typing: "typing 3.5s steps(35) infinite alternate, blink .7s infinite",
       },
+
       boxShadow: {
         "3xl": "0 5px 0 #1ab79d ",
+        "4xl": "5px 5px 5px #1ab79d ",
       },
     },
   },
