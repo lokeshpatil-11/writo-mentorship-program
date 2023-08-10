@@ -27,12 +27,12 @@ export default function Mentors() {
         <div>
             <Carousel responsive={responsive} showDots={true} autoPlay={true} autoPlaySpeed={2500} infinite={true}
             >
-                <Cards />
-                <Cards />
-                <Cards />
-                <Cards />
-                <Cards />
-                <Cards />
+                <Cards name="Mentor 1" company="Company Name 1" designaton="Content Writer" bio="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias voluptates obcaecati deleniti sint aspernatur. Distinctio dicta porro molestiae dolorum. Tempore."/>
+                <Cards name="Mentor 2" company="Company Name 2" designaton="Content Writer" bio="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias voluptates obcaecati deleniti sint aspernatur. Distinctio dicta porro molestiae dolorum. Tempore."/>
+                <Cards name="Mentor 3" company="Company Name 3" designaton="Content Writer" bio="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias voluptates obcaecati deleniti sint aspernatur. Distinctio dicta porro molestiae dolorum. Tempore."/>
+                <Cards name="Mentor 4" company="Company Name 4" designaton="Content Writer" bio="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias voluptates obcaecati deleniti sint aspernatur. Distinctio dicta porro molestiae dolorum. Tempore."/>
+                <Cards name="Mentor 5" company="Company Name 5" designaton="Content Writer" bio="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias voluptates obcaecati deleniti sint aspernatur. Distinctio dicta porro molestiae dolorum. Tempore."/>
+                <Cards name="Mentor 6" company="Company Name 6" designaton="Content Writer" bio="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias voluptates obcaecati deleniti sint aspernatur. Distinctio dicta porro molestiae dolorum. Tempore."/>
             </Carousel>
         </div>
     )

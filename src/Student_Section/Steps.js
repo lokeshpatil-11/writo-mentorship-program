@@ -1,69 +1,112 @@
-import React from 'react'
-import './style.css'
-import Carousel from "react-multi-carousel";
-import "react-multi-carousel/lib/styles.css";
-const responsive = {
-  superLargeDesktop: {
-    // the naming can be any, depends on you.
-    breakpoint: { max: 4000, min: 3000 },
-    items: 5
-  },
-  desktop: {
-    breakpoint: { max: 3000, min: 1024 },
-    items: 3
-  },
-  tablet: {
-    breakpoint: { max: 1024, min: 464 },
-    items: 2
-  },
-  mobile: {
-    breakpoint: { max: 464, min: 0 },
-    items: 1
-  }
+import React from 'react';
+import { FaLongArrowAltRight } from "react-icons/fa";
+
+const Steps = () => {
+  return (
+
+    <div className='project-section-bg mt-0 stepsbg'>
+      <div>
+        <div>
+          <div className='pt-7 px-3 pb-7 text-center'>
+            <h1 className='text-xl md:text-5xl font-bold' style={{ color: '#fff' }}>Start<span style={{color:'#ee4962'}} > Mentorship </span> today</h1>
+            <h1 className='mt-3 text-xl md:text-5xl font-bold'style={{ color: '#fff' }}><span style={{color:'#ee4962'}} >You'll
+            </span> never <span style={{color:'#ee4962'}} >look</span> back.</h1>
+          </div>
+          <div className='mt-4 grid justify-center lg:grid-cols-3 md:grid-cols-2 gap-y-5 md:gap-y-8'>
+            <div data-aos="fade-up" className="card card-compact md:w-96 mx-8 md:mx-auto course-card-shadow">
+              <div className='card-body'>
+                <div className='st'>
+                <div className='circle'>
+                  <p>1</p>
+                </div>
+                </div>
+                <h2 className="card-title my-2">PhotoFolio</h2>
+                <p>Build an Android app that allows users to create and showcase their photography portfolio.</p>
+                <div>
+                  <button className="allBtn bg-transparent btnlm">Learn more<FaLongArrowAltRight className='arrowr'></FaLongArrowAltRight> </button>
+                </div>
+              </div>
+            </div>
+            <div data-aos="fade-up" className="card card-compact md:w-96 mx-8 md:mx-auto course-card-shadow">
+
+              <div className='card-body'>
+              <div className='st'>
+                <div className='circle'>
+                  <p>2</p>
+                </div>
+                </div>
+                <h2 className="card-title my-2">iPod</h2>
+                <p>Build an Android app for playing and managing music tracks with a sleek design and easy-to-use controls.</p>
+                <div className='card-actions'>
+                  <button className="allBtn bg-transparent btnlm">Learn more<FaLongArrowAltRight className='arrowr'></FaLongArrowAltRight> </button>
+                </div>
+              </div>
+            </div>
+            <div data-aos="fade-up" className="card card-compact md:w-96 mx-8 md:mx-auto course-card-shadow">
+
+              <div className='card-body'>
+              <div className='st'>
+                <div className='circle'>
+                  <p>3</p>
+                </div>
+                </div>
+                <h2 className="card-title my-2">Music Player</h2>
+                <p>Create a sleek Android music player inspired by Spotify/Youtube Music with custom design and controls.</p>
+                <div>
+                  <button className="allBtn bg-transparent btnlm">Learn more<FaLongArrowAltRight className='arrowr'></FaLongArrowAltRight> </button>
+                </div>
+              </div>
+            </div>
+            <div data-aos="fade-up" className="card card-compact md:w-96 mx-8 md:mx-auto course-card-shadow">
+
+              <div className='card-body'>
+              <div className='st'>
+                <div className='circle'>
+                  <p>4</p>
+                </div>
+                </div>
+                <h2 className="card-title my-2">BusyBuy</h2>
+                <p>Create an Android app for easy online shopping, offering a user-friendly experience to browse and purchase products.</p>
+                <div>
+                  <button className="allBtn bg-transparent btnlm">Learn more<FaLongArrowAltRight className='arrowr'></FaLongArrowAltRight> </button>
+                </div>
+              </div>
+            </div>
+            <div data-aos="fade-up" className="card card-compact md:w-96 mx-8 md:mx-auto course-card-shadow">
+
+              <div className='card-body'>
+              <div className='st'>
+                <div className='circle'>
+                  <p>5</p>
+                </div>
+                </div>
+                <h2 className="card-title my-2">Todo List App</h2>
+                <p>Build an Android app to manage tasks and create to-do lists for better productivity.</p>
+                <div>
+                  <button className="allBtn bg-transparent btnlm">Learn more<FaLongArrowAltRight className='arrowr'></FaLongArrowAltRight> </button>
+                </div>
+              </div>
+            </div>
+            <div data-aos="fade-up" className="card card-compact md:w-96 mx-8 md:mx-auto course-card-shadow">
+
+              <div className='card-body'>
+              <div className='st'>
+                <div className='circle'>
+                  <p>6</p>
+                </div>
+                </div>
+                <h2 className="card-title my-2">Ping Pong Game</h2>
+                <p>Build An Android game app, reimagining the vintage ping pong using Kotlin.</p>
+                <div>
+                  <button className="allBtn bg-transparent btnlm">Learn more<FaLongArrowAltRight className='arrowr'></FaLongArrowAltRight> </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 };
 
-
-export default function Steps() {
-  return (
-    <div>
-        <h1 className='heading'>Start Mentorship today. You'll never look back.</h1>
-        <Carousel className="step-container" responsive={responsive} showDots={true} autoPlay={true} autoPlaySpeed={2500}  infinite={true} >
-        <div className='box'>
-            <h3>Card</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Eligendi quia, omnis praesentium, qui vero incidunt aspernatur 
-            minus numquam iusto pariatur voluptatibus fugit beatae expedita sed?</p>
-            <a href="/"><button className='btn'>Know More</button></a>
-            <span className='count'>Step-1</span>
-        </div>
-
-        <div className='box b2'>
-            <h3>Card</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Eligendi quia, omnis praesentium, qui vero incidunt aspernatur 
-            minus numquam iusto pariatur voluptatibus fugit beatae expedita sed?</p>
-            <a href="/"><button className='btn'>Know More</button></a>
-            <span className='count'>Step-2</span>
-        </div>
-
-        <div className='box b3'>
-            <h3>Card</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Eligendi quia, omnis praesentium, qui vero incidunt aspernatur 
-            minus numquam iusto pariatur voluptatibus fugit beatae expedita sed?</p>
-            <a href="/"><button className='btn'>Know More</button></a>
-            <span className='count'>Step-3</span>
-        </div>
-
-        <div className='box b4'>
-            <h3>Card</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Eligendi quia, omnis praesentium, qui vero incidunt aspernatur 
-            minus numquam iusto pariatur voluptatibus fugit beatae expedita sed?</p>
-            <a href="/"><button className='btn'>Know More</button></a>
-            <span className='count'>Step-4</span>
-        </div>
-</Carousel>
-    </div>
-  )
-}
+export default Steps;
