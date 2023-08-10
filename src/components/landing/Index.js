@@ -8,16 +8,24 @@ const Landing = (props) => {
 
   return (
     <>
-      <div className="flex xxs:flex-col md:flex-row justify-evenly xxs:px-2 md:pl-5 xxs:py-[2rem] sm:py-[4rem] lg:pt-[10rem] bg-webGreen bg-opacity-5">
-        <div className="flex-row">
-          <h1 className=" text-left pb-3 text-webGreen overflow-hidden whitespace-nowrap  animate-typing font-raleway italic  font-bold xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl xs:text-xl ">
-            {props.heading}
+      <div className="flex xxs:flex-col lg:flex-row justify-evenly xxs:px-2 md:pl-5 xxs:py-[2rem] sm:py-[4rem] lg:pt-[10rem] bg-webRed bg-opacity-5">
+        <div className="flex-row md:mx-7">
+          <h1 className=" text-left  pb-3 overflow-hidden whitespace-nowrap  animate-typing font-raleway   font-bold xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl xs:text-xl ">
+            {props.heading1}
+            <span className="text-webRed px-2 font-bold xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl xs:text-xl">
+              {props.heading2}
+            </span>
+            <span>{props.heading3}</span>
+            <span className="text-webRed pl-2 font-bold xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl xs:text-xl">
+              {props.heading4}
+            </span>
           </h1>
+
           <p className="text-left justify-start font-raleway font-mediam xl:text-2xl lg:text-xl md:text-xl tracking-widest  xxs:text-base pt-5">
             {props.para1}
           </p>
 
-          <button className="bg-btn xxs:mt-5 xxs:ml-[2.5rem] md:ml-0 opacity-75 border-none hover:opacity-100  text-white p-3 mt-7 hover:scale-105 box-border hover:shadow-2xl rounded-xl ">
+          <button className="bg-btn xxs:mt-5 md:ml-10 xxs:ml-[2.5rem]  opacity-75 border-none hover:opacity-100  text-white p-3 mt-7 hover:scale-105 box-border hover:shadow-2xl rounded-xl ">
             {props.button}
           </button>
         </div>

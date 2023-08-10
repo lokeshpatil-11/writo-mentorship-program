@@ -18,7 +18,10 @@ function App() {
   return (
     <div className="w-min-{370px}">
       <Landing
-        heading="Want 1:1 personalized mentorship?"
+        heading1="Want"
+        heading2="1:1"
+        heading3="personalized"
+        heading4="mentorship?"
         para1="Then you came to the right place. We offer long term mentorship with industry experts to help you achieve your dream career. "
         button="Select Your Mentor"
         para3="Our Mentees Placed At"
@@ -32,8 +35,11 @@ function App() {
         MentorshipImg={MentorshipImg}
       />
       <div className="flex">
-        <h1 className="text-left  xxs:mt-[5rem] md:mt-[10rem] xs:ml-2 lg:ml-5 mb-[3rem] pb-3 text-webGreen overflow-hidden whitespace-nowrap animate-type font-raleway italic font-bold xl:text-5xl lg:text-4xl md:text-4xl sm:text-2xl xs:text-xl">
-          Getting started is easy!
+        <h1 className="text-left  xxs:mt-[5rem] md:mt-[10rem] xs:ml-7 lg:ml-9 mb-[3rem] pb-3 overflow-hidden whitespace-nowrap animate-type font-raleway  font-bold xl:text-5xl lg:text-4xl md:text-4xl sm:text-2xl xs:text-xl">
+          Getting
+          <span className="text-webRed px-2">started</span>
+          <span>is</span>
+          <span className="text-webRed pl-2">easy!</span>
         </h1>
       </div>
 
@@ -42,50 +48,38 @@ function App() {
           heading="Getting started is easy!"
           number="1"
           description="Shortlist a mentor according to your preferences"
-          btn="View Mentors"
+          btn="View Mentors ->"
         />
 
         <GettingStarted
           number="2"
           description="Book a free trial session to see how the mentor can help you"
-          btn="Book Free Trial"
+          btn="Book Free Trial ->"
         />
 
         <GettingStarted
           number="3"
           description="Start preparing via 1:1 long term mentorship with your mentor"
-          btn="Get Started"
+          btn="Get Started ->"
         />
       </div>
 
-      <div className="xxs:mt-[5rem] flex lg:mt-[10rem]">
-        <h2 className="text-left xxs:ml-2 lg:ml-5 mb-[3rem] pb-3 text-webGreen overflow-hidden whitespace-nowrap  animate-type font-raleway italic  font-bold xl:text-6xl lg:text-5xl md:text-4xl sm:text-3xl xs:text-4xl xxs:xl">
-          How it Works?
+      <div className="xxs:mt-[5rem] flex lg:mt-[10rem] xxs:ml-7 lg:ml-9">
+        <h2 className="text-left xxs:ml-2 lg:ml-5 mb-[3rem] pb-3 overflow-hidden whitespace-nowrap  animate-type font-raleway   font-bold xl:text-6xl lg:text-5xl md:text-4xl sm:text-3xl xs:text-4xl xxs:xl">
+          How it
+          <span className="text-webRed pl-1">Works?</span>
         </h2>
       </div>
 
-      <div className="flex lg:justify-evenly lg:mt-[5rem]  items-center md:mx-auto xxs:flex-col xxs:ml-2 lg:flex-row ">
-        <div className="flex lg:relative">
-          <RoadMap title="loren Ipsom1" />
-          <RoadMap title="loren Ipsom2" />
-        </div>
-
-        <div className="flex ">
-          <RoadMap title="loren Ipsom3" />
-          <RoadMap title="loren Ipsom4" />
-        </div>
-
-        <div className="flex">
-          <RoadMap title="loren Ipsom5" />
-          <RoadMap title="loren Ipsom6" />
-        </div>
+      <div className="flex lg:justify-around lg:mt-[5rem]  items-center  xxs:flex-col xxs:ml-2 lg:flex-row ">
+        <RoadMap />
       </div>
 
-      <div className="xxs:mt-[5rem] flex-col md:my-[5rem] lg:mt-[10rem]">
-        <h2 className="text-left xs:ml-2 lg:ml-5 de  text-webGreen overflow-hidden whitespace-nowrap animate-type font-raleway italic  font-bold xl:text-6xl lg:text-5xl md:text-4xl sm:text-3xl xs:text-3xl xxs:xl">
+      <div className="xxs:mt-[5rem] flex-col md:my-[5rem] lg:mt-[10rem] ml-8">
+        <h2 className="text-left xs:ml-2 lg:ml-5 pb-1 overflow-hidden whitespace-nowrap animate-type font-raleway   font-bold xl:text-6xl lg:text-5xl md:text-4xl sm:text-3xl xs:text-3xl xxs:xl">
           You too can get into your
         </h2>
-        <h2 className="text-left xs:ml-2 lg:ml-5 mb-[3rem]  text-webGreen overflow-hidden whitespace-nowrap animate-type font-raleway italic  font-bold xl:text-6xl lg:text-5xl md:text-4xl sm:text-3xl xs:text-3xl xxs:xl">
+        <h2 className="text-left xs:ml-2 lg:ml-5 mb-[3rem] pb-2 text-webRed overflow-hidden whitespace-nowrap animate-type delay-1000 font-raleway   font-bold xl:text-6xl lg:text-5xl md:text-4xl sm:text-3xl xs:text-3xl xxs:xl">
           dream company!
         </h2>
       </div>

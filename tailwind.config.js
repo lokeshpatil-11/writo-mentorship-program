@@ -82,6 +82,9 @@ module.exports = {
         "3xl": "0 5px 0 #1ab79d ",
         "4xl": "5px 5px 5px #1ab79d ",
       },
+      dropShadow: {
+        "5xl": " 0 40px 25px #ee4962 ",
+      },
     },
   },
   variants: {

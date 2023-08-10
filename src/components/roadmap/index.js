@@ -1,18 +1,102 @@
 import React from "react";
 import "./index.css";
+import processImg from "../../images/processImg.png";
 
 const RoadMap = (props) => {
   return (
-    <div className="flex  mx-auto xxs:mx-[1rem] container mb-[5rem] overflow-hidden cursor-pointer mt-8">
-      <div className="flex flex-col lg:ml-5 items-center mr-5 xxs:mr-3  box-border hover:h-[100%]">
-        <span className="w-6 h-6 xxs:w border-solid border-4 bg-transparent hover:bg-webGreen "></span>
-        <span className="w-[3px] h-[200px] border-solid border-2 bg-transparent "></span>
-        <span className="w-[6px] h-[6px] border-solid border-2 bg-transparent"></span>
+    <div className="flex xxs:flex-col lg:flex-row lg:mx-7 xxs:px-5 ">
+      <div className="xxs:mb-7 xxs:px-8 lg:px-3 ">
+        <h2 className="text-webRed mb-4 xxs:text-base md:text-2xl lg:text-3xl ">
+          01
+        </h2>
+        <img
+          src={processImg}
+          alt="process icon"
+          className="border-solid xxs:w-5 lg:drop-shadow-5xl xxs:h-5 md:w-6 md:h-6 lg:w-8 lg:h-8 mix-blend-multiply "
+        />
+        <h2 className="xxs:mt-4 lg:mt-8 text-webRed xxs:text-2xl lg:text-3xl">
+          Heading
+        </h2>
+        <p className="xxs:text-lg">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae,
+          eveniet doloremque harum minima atque est, doloribus, exercitationem
+          itaque odio tempora quos necessitatibus.
+        </p>
       </div>
-      <div>
-        <h3 className="text-webRed font-bold xxs:text-sm sm:text-xl md:text-2xl">
-          {props.title}
-        </h3>
+
+      <div className="xxs:mb-7 xxs:px-8 lg:px-4 lg:pt-8">
+        <h2 className="text-webRed mb-4 xxs:text-base md:text-2xl lg:text-3xl ">
+          02
+        </h2>
+        <img
+          src={processImg}
+          alt="process icon"
+          className="border-solid xxs:w-5 lg:drop-shadow-5xl xxs:h-5 md:w-6 md:h-6 lg:w-8 lg:h-8 mix-blend-multiply "
+        />
+        <h2 className="xxs:mt-4 lg:mt-8 text-webRed xxs:text-2xl lg:text-3xl">
+          Heading
+        </h2>
+        <p className="xxs:text-lg">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae,
+          eveniet doloremque harum minima atque est, doloribus, exercitationem
+          itaque odio tempora quos necessitatibus.
+        </p>
+      </div>
+
+      <div className="xxs:mb-7 xxs:px-8 lg:px-4 ">
+        <h2 className="text-webRed mb-4 xxs:text-base md:text-2xl lg:text-3xl ">
+          03
+        </h2>
+        <img
+          src={processImg}
+          alt="process icon"
+          className="border-solid xxs:w-5 lg:drop-shadow-5xl xxs:h-5 md:w-6 md:h-6 lg:w-8 lg:h-8 mix-blend-multiply "
+        />
+        <h2 className="xxs:mt-4 lg:mt-8 text-webRed xxs:text-2xl lg:text-3xl">
+          Heading
+        </h2>
+        <p className="xxs:text-lg">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae,
+          eveniet doloremque harum minima atque est, doloribus, exercitationem
+          itaque odio tempora quos necessitatibus.
+        </p>
+      </div>
+
+      <div className="xxs:mb-7 xxs:px-8 lg:px-4 lg:pt-8">
+        <h2 className="text-webRed mb-4 xxs:text-base md:text-2xl lg:text-3xl ">
+          04
+        </h2>
+        <img
+          src={processImg}
+          alt="process icon"
+          className="border-solid xxs:w-5 lg:drop-shadow-5xl xxs:h-5 md:w-6 md:h-6 lg:w-8 lg:h-8 mix-blend-multiply "
+        />
+        <h2 className="xxs:mt-4 lg:mt-8 text-webRed xxs:text-2xl lg:text-3xl">
+          Heading
+        </h2>
+        <p className="xxs:text-lg">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae,
+          eveniet doloremque harum minima atque est, doloribus, exercitationem
+          itaque odio tempora quos necessitatibus.
+        </p>
+      </div>
+      <div className="xxs:mb-7 xxs:px-8 lg:px-4 ">
+        <h2 className="text-webRed mb-4 xxs:text-base md:text-2xl lg:text-3xl ">
+          05
+        </h2>
+        <img
+          src={processImg}
+          alt="process icon"
+          className="border-solid xxs:w-5 lg:drop-shadow-5xl xxs:h-5 md:w-6 md:h-6 lg:w-8 lg:h-8 mix-blend-multiply "
+        />
+        <h2 className="xxs:mt-4 lg:mt-8 text-webRed xxs:text-2xl lg:text-3xl">
+          Heading
+        </h2>
+        <p className="xxs:text-lg">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae,
+          eveniet doloremque harum minima atque est, doloribus, exercitationem
+          itaque odio tempora quos necessitatibus.
+        </p>
       </div>
     </div>
   );

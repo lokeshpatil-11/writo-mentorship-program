@@ -1,18 +1,6 @@
 import React from "react";
-import YouTube from "react-youtube";
 
 const StudentReview = (props) => {
-  const videoId = "J-vJMlJHpGU";
-  const opts = {
-    height: "240",
-    width: "500",
-    playerVars: {
-      controls: 0,
-      host: "http://www.youtube.com",
-      autohide: 1,
-      autoplay: 1,
-    },
-  };
   const starStyle = {
     color: "#fcd303",
   };
@@ -28,8 +16,14 @@ const StudentReview = (props) => {
         4.5/5 Ratings
       </i>
       <p className="text-xl text-left tracking-wide pt-5">{props.para}</p>
-      <div className="flex justify-center items-center p-5">
-        <YouTube videoId={videoId} opts={opts} />
+      <div className="flex justify-center items-center ">
+        <iframe
+          className="xxs:w-[200px] xxs:pt-2 xs:w-[230px] sm:w-[400px] sm:h-[350px] sm:my-3 md:w-[600px] lg:w-[1000px] "
+          src="https://www.youtube.com/embed/J-vJMlJHpGU"
+          title="YouTube Video"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
       </div>
     </div>
   );
