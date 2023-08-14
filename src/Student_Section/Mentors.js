@@ -25,7 +25,12 @@ const responsive = {
 export default function Mentors() {
     return (
         <div>
-            <Carousel responsive={responsive} showDots={true} autoPlay={true} autoPlaySpeed={2500} infinite={true}
+            <div className='pt-7 px-8 pb-3'>
+            <h1 className='text-xl md:text-5xl font-bold'>Every<span style={{color:'#ee4962'}} > Experience </span></h1>
+            <h1 className='mt-3 text-xl md:text-5xl font-bold'>Every <span style={{color:'#ee4962'}} >Domain 
+            </span> Covered.</h1>
+          </div>
+            <Carousel responsive={responsive} showDots={true} autoPlay={true} autoPlaySpeed={2500} infinite={true} className='craw'
             >
                 <Cards name="Mentor 1" company="Company Name 1" designaton="Content Writer" bio="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias voluptates obcaecati deleniti sint aspernatur. Distinctio dicta porro molestiae dolorum. Tempore."/>
                 <Cards name="Mentor 2" company="Company Name 2" designaton="Content Writer" bio="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias voluptates obcaecati deleniti sint aspernatur. Distinctio dicta porro molestiae dolorum. Tempore."/>

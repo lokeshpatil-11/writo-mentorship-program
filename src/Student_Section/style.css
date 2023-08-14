@@ -16,6 +16,9 @@ body{
 	bottom: 20px;
 	width: 300px;
 }
+.mcard{
+	width: 330px !important;
+}
 .card .card-borders {
 	position: absolute;
 	top: 0;
@@ -321,12 +324,20 @@ body{
   }
 }
 
+.craw{
+	margin: 0 100px !important;
+	padding: -10px 0 !important;
+}
 
 /* Steps component styling */
 .stepsbg{
 	margin: 0;
 	padding: 0;
 	background: #263a66;
+	background: #263a66;
+}
+.stepcont{
+	padding: 0 150px;
 }
 .arrowr{
 	margin-left: 5px; 
@@ -528,11 +539,11 @@ body{
 	margin: 0;
   }
   .react-multiple-carousel__arrow--left {
-    left: calc(0% + 1px) !important;
+    left: calc(0% + 2px) !important;
 	background-color: black !important;
 }
 .react-multiple-carousel__arrow--right {
-    right: calc(1% + 1px) !important;
+    right: calc(0% + 2px) !important;
 	background-color: black !important;
 }
 
@@ -575,6 +586,13 @@ body{
 	.stat p {
 		font-size: 13px;
 	}
+
+	.craw{
+		margin: 0 50px !important;
+	}
+	.mcard{
+		width: 300px !important;
+	}
 }
 
 @media screen and (max-width: 900px){
@@ -605,5 +623,8 @@ body{
 	}
 	.stat p {
 		font-size: 13px;
+	}
+	.craw{
+		margin: 0 50px !important;
 	}
 }

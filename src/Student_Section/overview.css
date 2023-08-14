@@ -127,3 +127,33 @@
       left: 0px;
     }
   }
+
+  @media only screen and (max-width:850px) {
+    .parent-box {
+      width: 100%;
+      height: 100%;
+    }
+  
+    .container {
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      overflow: auto;
+    }
+  
+    .image-box-X1, .image-box-X2 {
+      display: none;
+    }
+  
+    .box-relative {
+      margin-top: 50px;
+      left: 0px;
+    }
+
+    .sub-child-2 {
+      font-size: 22px;
+    }
+    .box-img-num{
+      font-size: 35px;
+    }
+  }

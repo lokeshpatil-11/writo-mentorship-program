@@ -17,7 +17,7 @@ import Steps from "./Student_Section/Steps"
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import Overview from "./Student_Section/Overview";
-
+import FAQS from "./Student_Section/FAQS"
 const responsive = {
     superLargeDesktop: {
         // the naming can be any, depends on you.
@@ -136,9 +136,9 @@ function App() {
         </Carousel>
 
       <Overview/>
-      
       <Steps/>
       <Mentors/>
+      <FAQS/>
     </div>
   );
 }

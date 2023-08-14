@@ -5,7 +5,7 @@ import './avatar.jpg';
 export default function cards(props) {
   return (
     <div className='all'>
-      <div className="card">
+      <div className="card mcard">
 	<div className="card-borders">
 		<div className="border-top"></div>
 		<div className="border-right"></div>
