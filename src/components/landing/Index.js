@@ -8,33 +8,32 @@ const Landing = (props) => {
 
   return (
     <>
-      <div className="flex xxs:flex-col lg:flex-row justify-evenly xxs:px-2 md:px-5 xxs:py-[2rem] sm:py-[4rem] lg:pt-[10rem] bg-webRed bg-opacity-5">
-        <div className="flex-row md:mx-7">
-          <h1 className=" text-left  pb-3 overflow-hidden whitespace-nowrap  animate-typing font-raleway   font-bold xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl xs:text-xl px-2">
+      <div className="flex xxs:flex-col lg:flex-row justify-evenly xxs:px-2 md:pl-5 md:pr-0 xxs:py-[2rem] sm:py-[4rem] lg:pt-[10rem] bg-webRed bg-opacity-5">
+        <div className="flex-row md:mx-5">
+          <h1 className=" text-left  pb-3 overflow-hidden whitespace-nowrap  animate-typing font-raleway   font-bold xl:text-6xl lg:text-5xl md:text-4xl sm:text-2xl xs:text-xl px-2 xs:text-3xl xxs:text-xl">
             {props.heading1}
-            <span className="text-webRed px-2 font-bold xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl xs:text-xl">
+            <span className="text-webRed px-2 font-bold xl:text-6xl lg:text-5xl md:text-4xl sm:text-2xl  xs:text-3xl xxs:text-xl">
               {props.heading2}
             </span>
-            <br />
-            <span>{props.heading3}</span>
-            <span className="text-webRed pl-2 font-bold xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl xs:text-xl">
+            <span>{props.heading3}</span><br />
+            <span className="text-webRed pl-2 font-bold xl:text-6xl lg:text-5xl md:text-4xl sm:text-2xl  xs:text-3xl xxs:text-xl">
               {props.heading4}
             </span>
           </h1>
 
-          <p className="text-left justify-start font-raleway font-mediam xl:text-2xl lg:text-xl md:text-xl tracking-widest  xxs:text-base pt-5 px-2 xxs:pt-3">
+          <p className="text-left justify-start font-raleway font-mediam xl:text-xl lg:text-lg md:text-base tracking-widest  xxs:text-[10px] pt-5 pl-2 lg:pr-6 xxs:pt-3">
             {props.para1}
           </p>
 
-          <button className="bg-btn xxs:mt-4 mx-1 md:ml-0 lg:ml-2 xxs:ml-[0 rem]  opacity-75 border-none hover:opacity-100  text-white p-3 mt-7 hover:scale-105 box-border hover:shadow-2xl rounded-xl">
+          <button className="font-semibold bg-btn xxs:mt-4 md:mx-1 xxs:mx-7 md:ml-0 lg:ml-2 xxs:ml-[0 rem]  opacity-75 border-none hover:opacity-100  text-white xxs:text-[10px] md:text-base xxs:p-1 md:px-3 mt-7 hover:scale-105 box-border hover:shadow-2xl rounded-xl">
             {props.button}
           </button>
         </div>
-        <div className="w-[100%] xxs:mt-6 lg:pr-7">
+        <div className="xxs:mt-0 lg:pr-7 pl-7">
           <img
-            src={props.MentorshipImg}
+            src={props.LandingImg}
             alt="mentorship img"
-            className=" animate-mover mix-blend-multiply lg:w-[100%]"
+            className=" lg:h-[500px] mix-blend-multiply lg:w-[2000px] pt-0"
           />
         </div>
       </div>

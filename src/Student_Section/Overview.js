@@ -9,7 +9,7 @@ function Overview() {
 
                     <div className="container-child-1 text-center md:text-start">
                         <div className='flex justify-center md:justify-start'>
-                            <p className="sub-child-1 w-40 text-center">Why Join Us?</p>
+                            <p className="sub-child-1 w-40 px-5 text-center">Why Join Us?</p>
                         </div>
                         <p className="sub-child-2">Great students deserve the best jobs</p>
                         <p className="sub-child-3">Writo Education Makes it Happen...</p>

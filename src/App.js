@@ -10,7 +10,6 @@ import GettingStarted from "./components/steps";
 import MmentorImg from "./images/MmentorImg.png";
 import Mentors from "./Student_Section/Mentors";
 import RoadMap from "./components/roadmap";
-import MentorshipImg from "./images/ementorshipImg.png";
 import "./App.css";
 import StudentReview from "./components/studentReview";
 import Steps from "./Student_Section/Steps";
@@ -18,7 +17,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Overview from "./Student_Section/Overview";
 import FAQS from "./Student_Section/FAQS"
-
+import LandingImg from "./images/landing_img.png";
 
 const responsive = {
   superLargeDesktop: {
@@ -48,7 +47,7 @@ function App() {
         heading3="personalized"
         heading4="mentorship?"
         para1="Then you came to the right place. We offer long term mentorship with industry experts to help you achieve your dream career. "
-        button="Select Your Mentor"
+        button="Let's Start Your Journey"
         para3="Our Mentees Placed At"
         googleImg={googleImg}
         appleImg={appleImg}
@@ -57,8 +56,9 @@ function App() {
         microsoftImg={microsoftImg}
         youtubeImg={youtubeImg}
         MmentorImg={MmentorImg}
-        MentorshipImg={MentorshipImg}
+        LandingImg={LandingImg}
       />
+      <Overview />
       <div className="flex">
         <h1 className="text-left  xxs:mt-[5rem] md:mt-[10rem] xxs:ml-2 xs:ml-7 lg:ml-9 mb-[3rem] pb-3 overflow-hidden whitespace-nowrap animate-type font-raleway  font-bold xl:text-5xl lg:text-4xl md:text-4xl sm:text-2xl xs:text-xl">
           Getting
@@ -105,7 +105,7 @@ function App() {
           You too can <span style={{ color: "#ee4962" }}>get</span> into your
           dream{" "}
           <span style={{ color: "#ee4962" }}>
-            {window.innerWidth <= 350 ? <br /> : " "}company!
+            {window.innerWidth <= 280 ? <br /> : " "}company!
           </span>
         </h2>
       </div>
@@ -113,6 +113,7 @@ function App() {
       <div className=" md:inline-grid md:gap-2 md:grid-row-2 md:grid-flow-col-5 lg:inline-grid mb-8 lg:gap-4 lg:grid-cols-2 lg:grid-rows-2  xxs:flex xxs:flex-col"> */}
       <Carousel
         responsive={responsive}
+        arrows={false}
         showDots={true}
         autoPlay={true}
         autoPlaySpeed={2500}
@@ -144,10 +145,10 @@ function App() {
         />
       </Carousel>
 
-      <Overview />
+      
 
       <Steps />
-      <Mentors />
+      <Mentors/>
       <FAQS/>
     </div>
   );
