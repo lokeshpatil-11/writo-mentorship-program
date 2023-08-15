@@ -16,7 +16,7 @@ import Steps from "./Student_Section/Steps";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Overview from "./Student_Section/Overview";
-import FAQS from "./Student_Section/FAQS"
+import FAQS from "./Student_Section/FAQS";
 import LandingImg from "./images/landing_img.png";
 
 const responsive = {
@@ -60,10 +60,11 @@ function App() {
       />
       <Overview />
       <div className="flex">
-        <h1 className="text-left  xxs:mt-[5rem] md:mt-[10rem] xxs:ml-2 xs:ml-7 lg:ml-9 mb-[3rem] pb-3 overflow-hidden whitespace-nowrap animate-type font-raleway  font-bold xl:text-5xl lg:text-4xl md:text-4xl sm:text-2xl xs:text-xl">
+        <h1 className="text-left xxs:mt-[5rem] md:mt-[10rem] xxs:ml-2 xs:ml-7 lg:ml-9 xxs:mb-[1rem] md:mb-[3rem] pb-3 overflow-hidden whitespace-nowrap animate-type font-raleway  font-bold xl:text-5xl lg:text-4xl md:text-4xl sm:text-2xl xs:text-xl xxs:text-xl">
           Getting
           <span className="text-webRed xxs:px-1 sm:px-2">started</span>
           <span>is</span>
+          <br />
           <span className="text-webRed xxs:pl-1  sm:pl-2">easy!</span>
         </h1>
       </div>
@@ -100,12 +101,11 @@ function App() {
         <RoadMap />
       </div>
 
-      <div className="xxs:mt-[3rem] flex-col md:my-[5rem] lg:mt-[10rem] ml-8 xxs:ml-3">
-        <h2 className="text-left xs:ml-2 lg:ml-5 pb-1 overflow-hidden whitespace-nowrap font-raleway   font-bold xl:text-6xl lg:text-5xl md:text-4xl sm:text-2xl xs:text-xl xxs:text-base">
-          You too can <span style={{ color: "#ee4962" }}>get</span> into your
-          dream{" "}
-          <span style={{ color: "#ee4962" }}>
-            {window.innerWidth <= 280 ? <br /> : " "}company!
+      <div className="xxs:mt-[1rem] flex-col md:my-[5rem]  lg:mt-[10rem] lg:ml-8 mb-5 xxs:ml-3">
+        <h2 className="text-left xs:ml-2 lg:ml-5 pb-1 overflow-hidden whitespace-nowrap font-raleway   font-bold xl:text-6xl lg:text-5xl md:text-4xl sm:text-2xl xs:text-xl xxs:text-[17px]">
+          You too can <span className="text-webRed">get</span> into your dream{" "}
+          <span className="text-webRed">
+            {window.innerWidth <= 300 ? <br /> : ""}company!
           </span>
         </h2>
       </div>
@@ -145,11 +145,9 @@ function App() {
         />
       </Carousel>
 
-      
-
       <Steps />
-      <Mentors/>
-      <FAQS/>
+      <Mentors />
+      <FAQS />
     </div>
   );
 }
