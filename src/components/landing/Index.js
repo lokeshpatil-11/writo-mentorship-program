@@ -22,11 +22,11 @@ const Landing = (props) => {
             </span>
           </h1>
 
-          <p className="text-left justify-start font-raleway font-mediam xl:text-2xl lg:text-xl md:text-xl tracking-widest  xxs:text-base pt-5 px-7">
+          <p className="text-left justify-start font-raleway font-mediam xl:text-2xl lg:text-xl md:text-xl tracking-widest  xxs:text-base pt-3 px-3">
             {props.para1}
           </p>
 
-          <button className="bg-btn xxs:mt-5 md:ml-0 lg:ml-7 xxs:ml-[0 rem]  opacity-75 border-none hover:opacity-100  text-white p-3 mt-7 hover:scale-105 box-border hover:shadow-2xl rounded-xl">
+          <button className="bg-btn xxs:mt-4 ml-2 lg:ml-7 xxs:ml-[0 rem]  opacity-75 border-none hover:opacity-100  text-white p-3 mt-7 hover:scale-105 box-border hover:shadow-2xl rounded-xl">
             {props.button}
           </button>
         </div>
