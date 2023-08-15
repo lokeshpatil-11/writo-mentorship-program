@@ -60,7 +60,7 @@ const FAQS = () => {
                                 <h1 className='text-xl md:text-5xl text-blue font-bold flex justify-center mb-6 mt-8'>Frequently Asked <span className='text-pink ml-2'>Questions</span></h1>
                         </div>
                         <div className='mx-5 my-7 md:mx-24'>
-                                <div className='collapseContainer'>
+                                <div className='collapseContainer'style={{background:'#fff'}}>
                                         <h1
                                                 className='flex p-4 items-center justify-between cursor-pointer'
                                                 onClick={toggleHandle1}>
@@ -74,9 +74,9 @@ const FAQS = () => {
                                                 </article>
                                         </div>
                                 </div>
-                                <div className='collapseContainer my-3 md:my-5'>
+                                <div className='collapseContainer my-3 md:my-5'style={{background:'#fff'}}>
                                         <h1
-                                                className='flex p-6 items-center justify-between cursor-pointer'
+                                                className='flex p-4 items-center justify-between cursor-pointer'
                                                 onClick={toggleHandle2}>
                                                 Q2. How can I track the status of my earning?
                                                 {toggle2 ? minus : plus}
@@ -88,9 +88,9 @@ const FAQS = () => {
                                                 </article>
                                         </div>
                                 </div>
-                                <div className='collapseContainer'>
+                                <div className='collapseContainer' style={{background:'#fff'}}>
                                         <h1
-                                                className='flex p-6 items-center justify-between cursor-pointer'
+                                                className='flex p-4 items-center justify-between cursor-pointer'
                                                 onClick={toggleHandle3}>
                                                 Q3. Who all can participate?
                                                 {toggle3 ? minus : plus}
@@ -102,9 +102,9 @@ const FAQS = () => {
                                                 </article>
                                         </div>
                                 </div>
-                                <div className='collapseContainer my-3 md:my-5'>
+                                <div className='collapseContainer my-3 md:my-5' style={{background:'#fff'}}>
                                         <h1
-                                                className='flex p-6 items-center justify-between cursor-pointer'
+                                                className='flex p-4 items-center justify-between cursor-pointer'
                                                 onClick={toggleHandle4}>
                                                 Q4. Who all can participate?
                                                 {toggle4 ? minus : plus}
@@ -116,9 +116,9 @@ const FAQS = () => {
                                                 </article>
                                         </div>
                                 </div>
-                                <div className='collapseContainer'>
+                                <div className='collapseContainer' style={{background:'#fff'}}>
                                         <h1
-                                                className='flex p-6 items-center justify-between cursor-pointer'
+                                                className='flex p-4 items-center justify-between cursor-pointer'
                                                 onClick={toggleHandle5}>
                                                 Q5. Who all can participate?
                                                 {toggle5 ? minus : plus}
