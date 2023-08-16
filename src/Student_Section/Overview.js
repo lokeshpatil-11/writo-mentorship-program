@@ -7,7 +7,7 @@ function Overview() {
             <div className="parent-box">
                 <div className="container">
 
-                    <div className="container-child-1 text-center md:text-start">
+                    <div className="container-child-1 text-center md:text-start md:mt-5">
                         <div className='flex justify-center md:justify-start'>
                             <p className="sub-child-1 w-40 px-5 text-center">Why Join Us?</p>
                         </div>

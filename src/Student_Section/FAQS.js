@@ -57,7 +57,7 @@ const FAQS = () => {
         return (
                 <div>
                         <div>
-                                <h1 className='text-xl md:text-5xl text-blue font-bold flex justify-center mb-6 mt-8'>Frequently Asked <span className='text-pink ml-2'>Questions</span></h1>
+                                <h1 className='text-xl md:text-5xl xs:text-2xl text-blue font-bold flex justify-center mb-6 mt-8'>Frequently Asked <span className='text-pink ml-2'>Questions</span></h1>
                         </div>
                         <div className='mx-5 my-7 md:mx-24'>
                                 <div className='collapseContainer'style={{background:'#fff'}}>

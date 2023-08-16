@@ -153,8 +153,12 @@
       left: 0px;
     }
 
+    .container-child-1{
+      margin-bottom: -60px;
+    }
     .sub-child-2 {
       font-size: 22px;
+      margin-top: 0px;
     }
     .box-img-num{
       font-size: 35px;

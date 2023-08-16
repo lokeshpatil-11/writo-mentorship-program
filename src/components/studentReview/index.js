@@ -13,12 +13,12 @@ const StudentReview = (props) => {
         </div>
       </div>
 
-      <p className="text-base text-left tracking-wide md:mx-7 pt-5">
+      <p className="text-base text-left tracking-wide md:mx-5 lg:mx-3 pt-5">
         {props.para}
       </p>
       <div className="flex justify-center items-center ">
         <iframe
-          className="xxs:w-[150px] xxs:pt-2 xs:w-[230px] sm:w-[300px] sm:h-[350px] sm:my-3 md:w-[250px] lg:w-[300px] lg:h-[200px] rounded-3xl border-solid border-webGreen"
+          className="xxs:w-[150px] xxs:pt-2 xs:w-[260px] sm:w-[300px] sm:h-[350px] sm:my-3 md:w-[250px] lg:w-[300px] lg:h-[200px] rounded-3xl border-solid border-webGreen"
           src="https://www.youtube.com/embed/J-vJMlJHpGU"
           title="YouTube Video"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

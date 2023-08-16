@@ -8,8 +8,8 @@ const Steps = () => {
       <div>
         <div>
           <div className='pt-7 px-3 pb-7 text-center'>
-            <h1 className='text-xl md:text-5xl font-bold' style={{ color: '#fff' }}>Start<span style={{color:'#ee4962'}} > Mentorship </span> today</h1>
-            <h1 className='mt-3 text-xl md:text-5xl font-bold'style={{ color: '#fff' }}><span style={{color:'#ee4962'}} >You'll
+            <h1 className='text-xl md:text-5xl xs:text-3xl font-bold' style={{ color: '#fff' }}>Start<span style={{color:'#ee4962'}} > Mentorship </span> today</h1>
+            <h1 className='mt-3 text-xl md:text-5xl xs:text-3xl font-bold'style={{ color: '#fff' }}><span style={{color:'#ee4962'}} >You'll
             </span> never <span style={{color:'#ee4962'}} >look</span> back.</h1>
           </div>
           <div className='mt-4 grid justify-center lg:grid-cols-3 md:grid-cols-2 gap-y-5  md:gap-y-6 lg:px-9 md:px-7'>
