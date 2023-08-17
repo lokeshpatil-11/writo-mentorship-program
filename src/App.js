@@ -18,7 +18,7 @@ import "react-multi-carousel/lib/styles.css";
 import Overview from "./components/Overview/Overview";
 import FAQS from "./components/FAQ/FAQS";
 import LandingImg from "./images/landing_img.svg";
-import './style.css'
+import "./style.css";
 const responsive = {
   superLargeDesktop: {
     // the naming can be any, depends on you.
@@ -42,10 +42,10 @@ function App() {
   return (
     <div className="w-min-{370px}">
       <Landing
-        heading1='Your Success,'
+        heading1="Your Success,"
         heading2="Our Focus:"
         heading3=" 1:1 "
-        heading4='Mentorship Awaits!'
+        heading4="Mentorship Awaits!"
         para1='"Discover a personalized mentorship program designed to guide you towards your goals with expert support and customized strategies."'
         button="Let's Start Your Journey"
         para3="Our Mentees Placed At"
@@ -64,11 +64,13 @@ function App() {
           Getting
           <span className="text-webRed xxs:px-1 sm:px-2">started</span>
           <span>is</span>
-          <span className="text-webRed xxs:pl-1  sm:pl-2">{window.innerWidth <= 500 ? <br /> : ""}easy!</span>
+          <span className="text-webRed xxs:pl-1  sm:pl-2">
+            {window.innerWidth <= 500 ? <br /> : ""}easy!
+          </span>
         </h1>
       </div>
 
-      <div className="flex justify-evenly xxs:flex-col lg:flex-row xxs:mx-2 md:mx-8 ">
+      <div className="flex  xxs:flex-col lg:flex-row xxs:mx-2 md:mx-8 lg:mx-9 ">
         <GettingStarted
           heading="Getting started is easy!"
           number="1"
@@ -102,7 +104,7 @@ function App() {
 
       <div className="xxs:mt-[1rem] flex-col md:my-[5rem]   lg:mt-[10rem] lg:ml-8 mb-5 xs:ml-0 xxs:ml-3 xs:mx-4">
         <h2 className="lg:text-left xs:ml-2 xs:text-center lg:ml-5 pb-1 overflow-hidden whitespace-nowrap font-raleway   font-bold xl:text-6xl lg:text-5xl md:text-4xl sm:text-2xl xs:text-2xl xxs:text-[17px]">
-          You too can <span className="text-webRed">get</span> into your 
+          You too can <span className="text-webRed">get</span> into your
           <span className="text-webRed ">
             {window.innerWidth <= 500 ? <br /> : ""} dream company!
           </span>
