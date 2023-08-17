@@ -25,7 +25,7 @@ const responsive = {
 export default function Mentors() {
     return (
         <div>
-            <div className='pt-7 px-8 pb-3 xs:text-center px-0'>
+            <div className='pt-7 px-8 pb-3 xs:text-center xs:px-0'>
             <h1 className='text-xl xs:text-3xl md:text-5xl font-bold'>Every<span style={{color:'#ee4962'}} > Experience </span> Every </h1>
             <h1 className='mt-3 text-xl xs:text-3xl md:text-5xl font-bold '> <span style={{color:'#ee4962'}} >Domain 
             </span> Covered</h1>

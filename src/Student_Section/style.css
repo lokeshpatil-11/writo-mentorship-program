@@ -539,14 +539,49 @@ body{
 	margin: 0;
   }
 
+
+
+@media screen and (max-width: 900px){
+	.left{
+		padding-left: 20px;
+
+	}
+	.left h1 {
+		font-size: 30px;
+	}
+	.left p {
+		font-size: 16px;
+		margin-top: 0px;
+	}
+	.left button {
+		height: 5vh;
+		font-size: 13px;
+		border-radius: 30px;
+		color: #fff;
+	}
+	.row {
+		margin-top: 0px;
+		padding-top: 20px;
+		padding-bottom: 50px;
+	}
+	.stat h1 {
+		font-size: 23px;
+	}
+	.stat p {
+		font-size: 13px;
+	}
+	.craw{
+		margin: 0 50px !important;
+	}
+}
 @media screen and (max-width: 480px){
 
 	.heading{
 		font-size: 22px;
 	}
-	.react-multi-carousel-list{
+	/* .react-multi-carousel-list{
 		margin-left: 15px;
-	}
+	} */
 	
 	.left{
 		padding-right: 0;
@@ -580,43 +615,9 @@ body{
 	}
 
 	.craw{
-		margin: 0 50px !important;
+		margin: 0 0px !important;
 	}
 	.mcard{
 		width: 300px !important;
-	}
-}
-
-@media screen and (max-width: 900px){
-	.left{
-		padding-left: 20px;
-
-	}
-	.left h1 {
-		font-size: 30px;
-	}
-	.left p {
-		font-size: 16px;
-		margin-top: 0px;
-	}
-	.left button {
-		height: 5vh;
-		font-size: 13px;
-		border-radius: 30px;
-		color: #fff;
-	}
-	.row {
-		margin-top: 0px;
-		padding-top: 20px;
-		padding-bottom: 50px;
-	}
-	.stat h1 {
-		font-size: 23px;
-	}
-	.stat p {
-		font-size: 13px;
-	}
-	.craw{
-		margin: 0 50px !important;
 	}
 }

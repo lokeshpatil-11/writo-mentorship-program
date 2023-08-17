@@ -17,7 +17,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Overview from "./Student_Section/Overview";
 import FAQS from "./Student_Section/FAQS";
-import LandingImg from "./images/landing_img.png";
+import LandingImg from "./images/landing_img.svg";
 
 const responsive = {
   superLargeDesktop: {
@@ -42,11 +42,11 @@ function App() {
   return (
     <div className="w-min-{370px}">
       <Landing
-        heading1="Want"
-        heading2="1:1"
-        heading3="personalized"
-        heading4="mentorship?"
-        para1="Then you came to the right place. We offer long term mentorship with industry experts to help you achieve your dream career. "
+        heading1='"Your Success,'
+        heading2="Our Focus:"
+        heading3=" 1:1 "
+        heading4='Mentorship Awaits!"'
+        para1='"Discover a personalized mentorship program designed to guide you towards your goals with expert support and customized strategies."'
         button="Let's Start Your Journey"
         para3="Our Mentees Placed At"
         googleImg={googleImg}
@@ -72,7 +72,7 @@ function App() {
         <GettingStarted
           heading="Getting started is easy!"
           number="1"
-          description="Book a free trial session to see how the mentor can help you"
+          description="Shortlist Your Mentor acording to your preferences"
           btn="View Mentors ->"
         />
 
@@ -84,7 +84,7 @@ function App() {
 
         <GettingStarted
           number="3"
-          description="Book a free trial session to see how the mentor can help you"
+          description="Start preparing via 1:1 long term mentorship with your mentor"
           btn="Get Started ->"
         />
       </div>

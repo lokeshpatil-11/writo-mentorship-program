@@ -20,8 +20,10 @@ const Steps = () => {
                   <p>1</p>
                 </div>
                 </div>
-                <h2 className="card-title my-2">PhotoFolio</h2>
-                <p>Build an Android app that allows users to create and showcase their photography portfolio.</p>
+                <h2 className="card-title my-2 text-2xl">Enrollment Phase</h2>
+                <p>- Application Process: Interested students apply for the program, providing their background, goals, and aspirations.
+   - Selection: Review and select mentees based on their commitment, passion, and potential.
+</p>
                 <div>
                   <button className="bg-transparent btnlm">Learn more<FaLongArrowAltRight className='arrowr'></FaLongArrowAltRight> </button>
                 </div>
@@ -35,8 +37,8 @@ const Steps = () => {
                   <p>2</p>
                 </div>
                 </div>
-                <h2 className="card-title my-2">iPod</h2>
-                <p>Build an Android app for playing and managing music tracks with a sleek design and easy-to-use controls.</p>
+                <h2 className="card-title my-2 text-2xl">Orientation:</h2>
+                <p>Conduct an orientation session to introduce mentors and mentees, explain program goals, expectations, and guidelines.</p>
                 <div className='card-actions'>
                   <button className="bg-transparent btnlm">Learn more<FaLongArrowAltRight className='arrowr'></FaLongArrowAltRight> </button>
                 </div>
@@ -50,8 +52,8 @@ const Steps = () => {
                   <p>3</p>
                 </div>
                 </div>
-                <h2 className="card-title my-2">Music Player</h2>
-                <p>Create a sleek Android music player inspired by Spotify/Youtube Music with custom design and controls.</p>
+                <h2 className="card-title my-2 text-2xl">Goal Setting:</h2>
+                <p> Mentor understands your goals, current preparation level & weaknesses Mentor suggests the perfect plan, timeline & milestones for you</p>
                 <div>
                   <button className="bg-transparent btnlm">Learn more<FaLongArrowAltRight className='arrowr'></FaLongArrowAltRight> </button>
                 </div>
@@ -65,8 +67,8 @@ const Steps = () => {
                   <p>4</p>
                 </div>
                 </div>
-                <h2 className="card-title my-2">BusyBuy</h2>
-                <p>Create an Android app for easy online shopping, offering a user-friendly experience to browse and purchase products.</p>
+                <h2 className="card-title my-2 text-2xl">Regular Interaction:</h2>
+                <p>Weekly or bi-weekly communication via phone calls, video chats, or in-person meetings, depending on availability and preferences</p>
                 <div>
                   <button className="bg-transparent btnlm">Learn more<FaLongArrowAltRight className='arrowr'></FaLongArrowAltRight> </button>
                 </div>
@@ -80,8 +82,8 @@ const Steps = () => {
                   <p>5</p>
                 </div>
                 </div>
-                <h2 className="card-title my-2">Todo List App</h2>
-                <p>Build an Android app to manage tasks and create to-do lists for better productivity.</p>
+                <h2 className="card-title my-2 text-2xl">Customized Career Plan:</h2>
+                <p>Mentors assist mentees in crafting a personalized career plan, including skill development, projects, certifications, and networking opportunities.</p>
                 <div>
                   <button className="bg-transparent btnlm">Learn more<FaLongArrowAltRight className='arrowr'></FaLongArrowAltRight> </button>
                 </div>
@@ -95,8 +97,8 @@ const Steps = () => {
                   <p>6</p>
                 </div>
                 </div>
-                <h2 className="card-title my-2">Ping Pong Game</h2>
-                <p>Build An Android game app, reimagining the vintage ping pong using Kotlin.</p>
+                <h2 className="card-title my-2 text-2xl">Feedback and Evaluation:</h2>
+                <p>Conduct periodic evaluations to assess the effectiveness of the program and gather feedback for improvement.</p>
                 <div>
                   <button className="bg-transparent btnlm">Learn more<FaLongArrowAltRight className='arrowr'></FaLongArrowAltRight> </button>
                 </div>

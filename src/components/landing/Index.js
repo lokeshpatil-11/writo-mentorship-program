@@ -8,16 +8,16 @@ const Landing = (props) => {
 
   return (
     <>
-      <div className="flex xxs:flex-col lg:flex-row justify-evenly xxs:px-2 md:pl-5 md:pr-0 xxs:py-[2rem] sm:py-[4rem] lg:pt-[10rem] bg-webRed bg-opacity-5">
-        <div className="flex-row md:mx-3">
-          <h1 className="text-left xs:mx-4 pb-3 overflow-hidden whitespace-nowrap  animate-typing font-raleway   font-bold xl:text-6xl lg:text-5xl md:text-4xl sm:text-2xl  xs:text-3xl xxs:text-xl">
+      <div className="flex xxs:flex-col lg:flex-row justify-evenly xxs:px-2 md:pl-5 md:pr-0 xxs:py-[2rem] sm:py-[4rem] lg:pt-[5rem] bg-webRed bg-opacity-5">
+        <div className="flex-row md:mx-3 lg:mx-2">
+          <h1 className="lg:text-left xs:mx-2 lg:mx-0  pb-3 overflow-hidden whitespace-nowrap  animate-typing font-raleway   font-bold xl:text-6xl lg:text-5xl md:text-4xl sm:text-2xl  xs:text-2xl xxs:text-xl">
             {props.heading1}
             <span className="text-webRed px-2 font-bold xl:text-6xl lg:text-5xl md:text-4xl sm:text-3xl  xs:text-3xl xxs:text-xl">
               {props.heading2}
             </span>
             <span>{props.heading3}</span>
             <br />
-            <span className="text-webRed pl-2 lg:mx-8 xs:mx-7 font-bold xl:text-6xl lg:text-5xl md:text-4xl sm:text-2xl  xs:text-3xl xxs:text-xl">
+            <span className="text-webRed pl-2 lg:mx-8 xs:mx-7 font-bold xl:text-6xl lg:text-5xl md:text-4xl sm:text-2xl  xs:text-2xl xxs:text-xl">
               {props.heading4}
             </span>
           </h1>
@@ -44,7 +44,8 @@ const Landing = (props) => {
           <p className="font-raleway text-center xxs:text-2xl sm:text-3xl lg:mr-3 xxs:mb-5">
             {props.para3}
           </p>
-          <marquee direction="left">
+          <div className="marquee-container">
+            <div className="marquee" id="marquee1">
             <div className="flex justify-center mb-4 ">
               <img
                 src={props.googleImg}
@@ -77,8 +78,9 @@ const Landing = (props) => {
                 className="sm:w-6 sm:h-6 md:w-[75px] md:h-[75px] rounded-2xl sm:mr-5 border-solid shadow-4xl md:p-3 xxs:p-2 xxs:w-[44px] xxs:h-[44px] xxs:mr-2 "
               />
             </div>
-          </marquee>
-          <marquee direction="right">
+            </div>
+            </div>
+            <div className="marquee" id="marquee2">
             <div className="flex justify-center mb-7 ">
               <img
                 src={props.googleImg}
@@ -111,7 +113,7 @@ const Landing = (props) => {
                 className="sm:w-6 sm:h-6 md:w-[75px] md:h-[75px] rounded-2xl sm:mr-5 border-solid shadow-4xl md:p-3 xxs:p-2 xxs:w-[44px] xxs:h-[44px] xxs:mr-2 "
               />
             </div>
-          </marquee>
+          </div>
         </div>
       </div>
     </>
