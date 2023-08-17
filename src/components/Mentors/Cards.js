@@ -1,6 +1,4 @@
 import React from 'react';
-import './style.css';
-import './avatar.jpg';
 
 export default function cards(props) {
   return (
@@ -13,7 +11,7 @@ export default function cards(props) {
 		<div className="border-left"></div>
 	</div>
 	<div className="card-content">
-		<img src={require('./avatar.jpg')} className="avatar" alt=''/>
+		<img src={props.img} className="avatar" alt=''/>
 		<p className="username">{props.name}</p>
 		<p className='company'>{props.company}</p>
 		<p className="designation">{props.designaton}</p>
@@ -21,7 +19,7 @@ export default function cards(props) {
 		
 		<div className="social-icons">
 			<a className="social-icon" href="/" target="_blank">
-				<i class="fa-brands fa-instagram"></i>
+				<i class="fa-brands fa-linkedin"></i>
 			</a>
 			
 			<a className="social-icon" href="/" target="_blank">

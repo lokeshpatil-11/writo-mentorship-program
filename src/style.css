@@ -84,8 +84,8 @@ body{
 	border-bottom: 10px solid #1ab79d;
 }
 .card .card-content .avatar {
-	width: 120px;
-	height: 120px;
+	width: 160px;
+	height: 160px;
 	margin-bottom: 10px;
 	opacity: 0;
 	transform: scale(0.6);

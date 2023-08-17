@@ -8,17 +8,17 @@ import microsoftImg from "./images/microsoftImg.png";
 import youtubeImg from "./images/youtubeImg.png";
 import GettingStarted from "./components/steps";
 import MmentorImg from "./images/MmentorImg.png";
-import Mentors from "./Student_Section/Mentors";
+import Mentors from "./components/Mentors/Mentors";
 import RoadMap from "./components/roadmap";
 import "./App.css";
 import StudentReview from "./components/studentReview";
-import Steps from "./Student_Section/Steps";
+import Steps from "./components/Msteps/Steps";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import Overview from "./Student_Section/Overview";
-import FAQS from "./Student_Section/FAQS";
+import Overview from "./components/Overview/Overview";
+import FAQS from "./components/FAQ/FAQS";
 import LandingImg from "./images/landing_img.svg";
-
+import './style.css'
 const responsive = {
   superLargeDesktop: {
     // the naming can be any, depends on you.
@@ -42,10 +42,10 @@ function App() {
   return (
     <div className="w-min-{370px}">
       <Landing
-        heading1='"Your Success,'
+        heading1='Your Success,'
         heading2="Our Focus:"
         heading3=" 1:1 "
-        heading4='Mentorship Awaits!"'
+        heading4='Mentorship Awaits!'
         para1='"Discover a personalized mentorship program designed to guide you towards your goals with expert support and customized strategies."'
         button="Let's Start Your Journey"
         para3="Our Mentees Placed At"
@@ -60,7 +60,7 @@ function App() {
       />
       <Overview />
       <div className="flex">
-        <h1 className="text-left xxs:mt-[5rem] md:mt-[10rem] xxs:ml-2  lg:ml-9 xxs:mb-[1rem] md:mb-[3rem] pb-3 overflow-hidden whitespace-nowrap animate-type font-raleway  font-bold xl:text-6xl lg:text-5xl md:text-4xl sm:text-2xl xs:text-3xl xs:pl-1 xxs:text-xl">
+        <h1 className="text-left xxs:mt-[5rem] md:mt-[10rem] xxs:ml-2  lg:ml-9 xxs:mb-[1rem] md:mb-[3rem] pb-3 overflow-hidden whitespace-nowrap animate-type font-raleway  font-bold xl:text-6xl lg:text-5xl md:text-4xl sm:text-2xl xs:text-2xl xs:pl-1 xxs:text-xl">
           Getting
           <span className="text-webRed xxs:px-1 sm:px-2">started</span>
           <span>is</span>
@@ -101,7 +101,7 @@ function App() {
       </div>
 
       <div className="xxs:mt-[1rem] flex-col md:my-[5rem]   lg:mt-[10rem] lg:ml-8 mb-5 xs:ml-0 xxs:ml-3 xs:mx-4">
-        <h2 className="lg:text-left xs:ml-2 xs:text-center lg:ml-5 pb-1 overflow-hidden whitespace-nowrap font-raleway   font-bold xl:text-6xl lg:text-5xl md:text-4xl sm:text-2xl xs:text-3xl xxs:text-[17px]">
+        <h2 className="lg:text-left xs:ml-2 xs:text-center lg:ml-5 pb-1 overflow-hidden whitespace-nowrap font-raleway   font-bold xl:text-6xl lg:text-5xl md:text-4xl sm:text-2xl xs:text-2xl xxs:text-[17px]">
           You too can <span className="text-webRed">get</span> into your 
           <span className="text-webRed ">
             {window.innerWidth <= 500 ? <br /> : ""} dream company!
@@ -121,26 +121,34 @@ function App() {
       >
         <StudentReview
           img={MmentorImg}
-          name="Naman"
-          para="The Long Term Mentorship program was great. I am very pleased to have Sandeep as my mentor. His advice is very to the point."
+          name="Sujit Kumar"
+          companyname=""
+          para='"Harsh used to continuously keep a check on me. If I am doing well mentally. If I am executing my tasks. If I am on the right track"'
+          video="https://www.youtube-nocookie.com/embed/J-vJMlJHpGU?rel=0&controls=1&autoplay=1&mute=1&start=0"
         />
 
         <StudentReview
           img={MmentorImg}
-          name="lokesh"
-          para="The Long Term Mentorship program was great. I am very pleased to have Sandeep as my mentor. His advice is very to the point."
+          name="Kaushik Mukherjee"
+          companyname=""
+          para='"Thank you Sushrut for supporting me like a big brother, and helping me improve constantly"'
+          video="https://www.youtube-nocookie.com/embed/BOvo-VwQ4y8?rel=0&controls=1&autoplay=1&mute=1&start=0"
         />
 
         <StudentReview
           img={MmentorImg}
-          name="Naman"
+          name="Aditya Vardhan"
+          companyname=""
           para="The Long Term Mentorship program was great. I am very pleased to have Sandeep as my mentor. His advice is very to the point."
+          video="https://www.youtube-nocookie.com/embed/-Otv_sYGlak?rel=0&controls=1&autoplay=1&mute=1&start=0"
         />
 
         <StudentReview
           img={MmentorImg}
-          name="lokesh"
-          para="The Long Term Mentorship program was great. I am very pleased to have Sandeep as my mentor. His advice is very to the point."
+          name="Lokesh"
+          companyname=""
+          para="Mentors at writo are amazing. They keep track of your progress through each round. Nimesh constantly advises new methods and adds to your knowledge. During the mock interview, he is quite professional and takes notes of my performance. I'm highly satisfied with Nimesh's technique of interviewing and his detailed feedback."
+          video=""
         />
       </Carousel>
 

@@ -4,9 +4,9 @@ import { FaLongArrowAltRight } from "react-icons/fa";
 const Steps = () => {
   return (
 
-    <div className='project-section-bg mt-0 pb-7 stepsbg'>
+    <div className='project-section-bg pb-7 stepsbg'>
       <div>
-        <div>
+        <div className='mt-7'>
           <div className='pt-7 px-3 pb-7 text-center'>
             <h1 className='text-xl md:text-5xl xs:text-3xl font-bold' style={{ color: '#fff' }}>Start<span style={{color:'#ee4962'}} > Mentorship </span> today</h1>
             <h1 className='mt-3 text-xl md:text-5xl xs:text-3xl font-bold'style={{ color: '#fff' }}><span style={{color:'#ee4962'}} >You'll

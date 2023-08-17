@@ -71,11 +71,29 @@ module.exports = {
             borderColor: "white",
           },
         },
+        leftToRight: {
+          "0%": {
+            transform: "translateX(-100%)",
+          },
+          "100%": {
+            transform: "translateX(100%)",
+          },
+        },
+        rightToLeft: {
+          "0%": {
+            transform: "translateX(100%)",
+          },
+          "100%": {
+            transform: "translateX(-100%)",
+          },
+        },
       },
 
       animation: {
         type: "type 3.5s steps(35) infinite alternate, blink .7s infinite",
         typing: "typing 3.5s steps(35) infinite alternate, blink .7s infinite",
+        leftToRight: "leftToRight 20s  infinite linear ",
+        rightToLeft: "rightToLeft 20s 2s infinite linear ",
       },
 
       boxShadow: {
@@ -87,6 +105,9 @@ module.exports = {
       },
     },
   },
+  
+
+       
   variants: {
     extend: {},
   },
