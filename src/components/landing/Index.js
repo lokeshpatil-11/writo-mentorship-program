@@ -2,10 +2,6 @@ import React from "react";
 import "./index.css";
 
 const Landing = (props) => {
-  const starStyle = {
-    color: "#fcd303",
-  };
-
   return (
     <>
       <div className="flex xxs:flex-col lg:flex-row justify-evenly xxs:px-2 md:pl-5 md:pr-0 xxs:py-[2rem] sm:py-[4rem] lg:pt-[5rem] bg-webRed bg-opacity-5">
@@ -39,80 +35,76 @@ const Landing = (props) => {
         </div>
       </div>
 
-      <div className="flex flex-col justify-center items-center  xxs:pt-5 md:mb-8">
-        <div className="  pt-5 xxs:flex-col lg:flex-row xxs:w-[90%] lg:w-[95%] ">
+      <div className=" overflow-hidden flex-col w-[100%] justify-center items-center  xxs:pt-5 md:mb-8">
+        <div className="  pt-5 xxs:flex-col lg:flex-row  ">
           <p className="font-raleway text-center xxs:text-2xl sm:text-3xl lg:mr-3 xxs:mb-5">
             {props.para3}
           </p>
-          <div className="marquee-container">
-            <div className="marquee" id="marquee1">
-            <div className="flex justify-center mb-4 ">
-              <img
-                src={props.googleImg}
-                alt="google img"
-                className="sm:w-6 sm:h-6 md:w-[75px] md:h-[75px] rounded-2xl sm:mr-5 border-solid shadow-4xl md:p-3 xxs:p-2 xxs:w-[44px] xxs:h-[44px] xxs:mr-2 "
-              />
-              <img
-                src={props.appleImg}
-                alt="apple img"
-                className="sm:w-6 sm:h-6 md:w-[75px] md:h-[75px] rounded-2xl sm:mr-5 border-solid shadow-4xl md:p-3 xxs:p-2 xxs:w-[44px] xxs:h-[44px] xxs:mr-2 "
-              />
-              <img
-                src={props.microsoftImg}
-                alt="microsoft img"
-                className="sm:w-6 sm:h-6 md:w-[75px] md:h-[75px] rounded-2xl sm:mr-5 border-solid shadow-4xl md:p-3 xxs:p-2 xxs:w-[44px] xxs:h-[44px] xxs:mr-2 "
-              />
-              <img
-                src={props.amazonImg}
-                alt="amazon img"
-                className="sm:w-6 sm:h-6 md:w-[75px] md:h-[75px] rounded-2xl sm:mr-5 border-solid shadow-4xl md:p-3 xxs:p-2 xxs:w-[44px] xxs:h-[44px] xxs:mr-2 "
-              />
-              <img
-                src={props.airbnbImg}
-                alt="airbnb img"
-                className="sm:w-6 sm:h-6 md:w-[75px] md:h-[75px] rounded-2xl sm:mr-5 border-solid shadow-4xl md:p-3 xxs:p-2 xxs:w-[44px] xxs:h-[44px] xxs:mr-2 "
-              />
-              <img
-                src={props.youtubeImg}
-                alt="youtube img"
-                className="sm:w-6 sm:h-6 md:w-[75px] md:h-[75px] rounded-2xl sm:mr-5 border-solid shadow-4xl md:p-3 xxs:p-2 xxs:w-[44px] xxs:h-[44px] xxs:mr-2 "
-              />
-            </div>
-            </div>
-            </div>
-            <div className="marquee" id="marquee2">
-            <div className="flex justify-center mb-7 ">
-              <img
-                src={props.googleImg}
-                alt="google img"
-                className="sm:w-6 sm:h-6 md:w-[75px] md:h-[75px] rounded-2xl sm:mr-5 border-solid shadow-4xl md:p-3 xxs:p-2 xxs:w-[44px] xxs:h-[44px] xxs:mr-2 "
-              />
-              <img
-                src={props.appleImg}
-                alt="apple img"
-                className="sm:w-6 sm:h-6 md:w-[75px] md:h-[75px] rounded-2xl sm:mr-5 border-solid shadow-4xl md:p-3 xxs:p-2 xxs:w-[44px] xxs:h-[44px] xxs:mr-2 "
-              />
-              <img
-                src={props.microsoftImg}
-                alt="microsoft img"
-                className="sm:w-6 sm:h-6 md:w-[75px] md:h-[75px] rounded-2xl sm:mr-5 border-solid shadow-4xl md:p-3 xxs:p-2 xxs:w-[44px] xxs:h-[44px] xxs:mr-2 "
-              />
-              <img
-                src={props.amazonImg}
-                alt="amazon img"
-                className="sm:w-6 sm:h-6 md:w-[75px] md:h-[75px] rounded-2xl sm:mr-5 border-solid shadow-4xl md:p-3 xxs:p-2 xxs:w-[44px] xxs:h-[44px] xxs:mr-2 "
-              />
-              <img
-                src={props.airbnbImg}
-                alt="airbnb img"
-                className="sm:w-6 sm:h-6 md:w-[75px] md:h-[75px] rounded-2xl sm:mr-5 border-solid shadow-4xl md:p-3 xxs:p-2 xxs:w-[44px] xxs:h-[44px] xxs:mr-2 "
-              />
-              <img
-                src={props.youtubeImg}
-                alt="youtube img"
-                className="sm:w-6 sm:h-6 md:w-[75px] md:h-[75px] rounded-2xl sm:mr-5 border-solid shadow-4xl md:p-3 xxs:p-2 xxs:w-[44px] xxs:h-[44px] xxs:mr-2 "
-              />
-            </div>
+
+          <div className="grid md:grid-cols-7 animate-leftToRight xxs:grid-cols-6 lg:grid-cols-10 gap-1 mb-7 ">
+            <img
+              src={props.googleImg}
+              alt="google img"
+              className="sm:w-6 sm:h-6 md:w-[75px] md:h-[75px] rounded-2xl  border-solid shadow-4xl md:p-3 xxs:p-2 xxs:w-[44px] xxs:h-[44px] "
+            />
+            <img
+              src={props.appleImg}
+              alt="apple img"
+              className="sm:w-6 sm:h-6 md:w-[75px] md:h-[75px] rounded-2xl  border-solid shadow-4xl md:p-3 xxs:p-2 xxs:w-[44px] xxs:h-[44px]"
+            />
+            <img
+              src={props.microsoftImg}
+              alt="microsoft img"
+              className="sm:w-6 sm:h-6 md:w-[75px] md:h-[75px] rounded-2xl border-solid shadow-4xl md:p-3 xxs:p-2 xxs:w-[44px] xxs:h-[44px]"
+            />
+            <img
+              src={props.amazonImg}
+              alt="amazon img"
+              className="sm:w-6 sm:h-6 md:w-[75px] md:h-[75px] rounded-2xl  border-solid shadow-4xl md:p-3 xxs:p-2 xxs:w-[44px] xxs:h-[44px]  "
+            />
+            <img
+              src={props.airbnbImg}
+              alt="airbnb img"
+              className="sm:w-6 sm:h-6 md:w-[75px] md:h-[75px] rounded-2xl  border-solid shadow-4xl md:p-3 xxs:p-2 xxs:w-[44px] xxs:h-[44px] "
+            />
+            <img
+              src={props.youtubeImg}
+              alt="youtube img"
+              className="sm:w-6 sm:h-6 md:w-[75px] md:h-[75px] rounded-2xl border-solid shadow-4xl md:p-3 xxs:p-2 xxs:w-[44px] xxs:h-[44px] "
+            />
+          </div>
+
+          <div className="grid md:grid-cols-7  animate-rightToLeft xxs:grid-cols-6  lg:grid-cols-11 gap-1 mb-7 ">
+            <img
+              src={props.googleImg}
+              alt="google img"
+              className="sm:w-6 sm:h-6 md:w-[75px] md:h-[75px] rounded-2xl sm:mr-5 border-solid shadow-4xl md:p-3 xxs:p-2 xxs:w-[44px] xxs:h-[44px] "
+            />
+            <img
+              src={props.appleImg}
+              alt="apple img"
+              className="sm:w-6 sm:h-6 md:w-[75px] md:h-[75px] rounded-2xl sm:mr-5 border-solid shadow-4xl md:p-3 xxs:p-2 xxs:w-[44px] xxs:h-[44px] xxs:mr-2 "
+            />
+            <img
+              src={props.microsoftImg}
+              alt="microsoft img"
+              className="sm:w-6 sm:h-6 md:w-[75px] md:h-[75px] rounded-2xl sm:mr-5 border-solid shadow-4xl md:p-3 xxs:p-2 xxs:w-[44px] xxs:h-[44px] xxs:mr-2 "
+            />
+            <img
+              src={props.amazonImg}
+              alt="amazon img"
+              className="sm:w-6 sm:h-6 md:w-[75px] md:h-[75px] rounded-2xl sm:mr-5 border-solid shadow-4xl md:p-3 xxs:p-2 xxs:w-[44px] xxs:h-[44px] xxs:mr-2 "
+            />
+            <img
+              src={props.airbnbImg}
+              alt="airbnb img"
+              className="sm:w-6 sm:h-6 md:w-[75px] md:h-[75px] rounded-2xl sm:mr-5 border-solid shadow-4xl md:p-3 xxs:p-2 xxs:w-[44px] xxs:h-[44px] xxs:mr-2 "
+            />
+            <img
+              src={props.youtubeImg}
+              alt="youtube img"
+              className="sm:w-6 sm:h-6 md:w-[75px] md:h-[75px] rounded-2xl sm:mr-5 border-solid shadow-4xl md:p-3 xxs:p-2 xxs:w-[44px] xxs:h-[44px] xxs:mr-2 "
+            />
           </div>
         </div>
       </div>

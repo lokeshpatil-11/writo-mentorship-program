@@ -1,4 +1,4 @@
-.animate-mover {
+/* .animate-mover {
   animation: mover 3s ease-in-out infinite;
 }
 
@@ -19,9 +19,9 @@
 }
 
 .marquee {
-  width: 50%; /* Adjust as needed */
+  width: 50%; Adjust as needed
   white-space: nowrap;
-  animation-duration: 13s; /* Adjust animation speed */
+  animation-duration: 20s; Adjust animation speed
   animation-timing-function: linear;
   animation-iteration-count: infinite;
   display: flex;
@@ -31,7 +31,7 @@
   0% {
     transform: translateX(100%);
   }
-  100% {
+  80% {
     transform: translateX(-100%);
   }
 }
@@ -40,7 +40,7 @@
   0% {
     transform: translateX(-100%);
   }
-  100% {
+  80% {
     transform: translateX(100%);
   }
 }
@@ -51,5 +51,4 @@
 
 #marquee2 {
   animation-name: scroll-right;
-}
-
+} */
