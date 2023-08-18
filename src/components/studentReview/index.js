@@ -20,7 +20,7 @@ const StudentReview = (props) => {
       <div className="flex justify-center min-h-[50%] min-w-[30%] items-center ">
         {video ? (
           <iframe
-            className="xxs:w-[220px] xxs:pt-2 xs:w-[280px] sm:w-[300px] sm:h-[350px] min-w-[200px] min-h-[30%] sm:my-3 md:w-[250px] lg:w-[280px] lg:h-[200px] rounded-3xl border-solid border-webGreen"
+            className="xxs:w-[220px] xxs:pt-2 xs:w-[280px] sm:w-[300px] sm:h-[350px] min-w-[200px] min-h-[30%]  md:w-[250px] lg:w-[280px] lg:h-[200px] rounded-3xl border-solid border-webGreen"
             src={video}
             title="YouTube Video"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
