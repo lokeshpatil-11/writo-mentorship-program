@@ -36,41 +36,6 @@ module.exports = {
         raleway: ["Raleway", "sans-serif", "cursive"],
       },
       keyframes: {
-        typing: {
-          "0%": {
-            width: "0%",
-            visibility: "hidden",
-          },
-          "100%": {
-            width: "105%",
-          },
-        },
-        blink: {
-          "50%": {
-            borderColor: "transparent",
-          },
-          "100%": {
-            borderColor: "white",
-          },
-        },
-
-        type: {
-          "0%": {
-            width: "0%",
-            visibility: "hidden",
-          },
-          "100%": {
-            width: "70%",
-          },
-        },
-        blink: {
-          "50%": {
-            borderColor: "transparent",
-          },
-          "100%": {
-            borderColor: "white",
-          },
-        },
         leftToRight: {
           "0%": {
             transform: "translateX(-100%)",
@@ -90,8 +55,6 @@ module.exports = {
       },
 
       animation: {
-        type: "type 3.5s steps(35) infinite alternate, blink .7s infinite",
-        typing: "typing 3.5s steps(35) infinite alternate, blink .7s infinite",
         leftToRight: "leftToRight 20s  infinite linear ",
         rightToLeft: "rightToLeft 20s 2s infinite linear ",
       },
@@ -105,9 +68,7 @@ module.exports = {
       },
     },
   },
-  
 
-       
   variants: {
     extend: {},
   },

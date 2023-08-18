@@ -6,14 +6,14 @@ const Landing = (props) => {
     <>
       <div className="flex xxs:flex-col lg:flex-row justify-evenly xxs:px-2 md:pl-5 md:pr-0 xxs:py-[2rem] sm:py-[4rem] lg:pt-[5rem] bg-webRed bg-opacity-5">
         <div className="flex-row md:mx-3 lg:mx-2">
-          <h1 className="lg:text-left xs:mx-0 lg:mx-0  pb-3 overflow-hidden whitespace-nowrap  animate-typing font-raleway   font-bold xl:text-6xl lg:text-5xl md:text-4xl sm:text-xl  xs:text-xl xxs:text-xl">
+          <h1 className="lg:text-left xxs:text-center xs:mx-0 lg:mx-0  pb-3 overflow-hidden whitespace-nowrap   font-raleway   font-bold xl:text-6xl lg:text-5xl md:text-4xl sm:text-3xl  xs:text-[30px] xxs:text-[21px]">
             {props.heading1}
-            <span className="text-webRed px-2 font-bold xl:text-6xl lg:text-5xl md:text-4xl sm:text-xl  xs:text-xl xxs:text-xl">
+            <span className="text-webRed px-2 font-bold xl:text-6xl lg:text-5xl md:text-4xl sm:text-3xl  xs:text-[24px] xxs:text-[21px]">
               {props.heading2}
             </span>
             <span>{props.heading3}</span>
             <br />
-            <span className="text-webRed pl-2 lg:mx-8 xs:mx-5 font-bold xl:text-6xl lg:text-5xl md:text-4xl sm:text-xl  xs:text-xl xxs:text-xl">
+            <span className="text-webRed pl-2 lg:mx-8 xs:mx-5 font-bold xl:text-6xl lg:text-5xl md:text-4xl sm:text-xl  xs:text-[25px] xxs:text-xl">
               {props.heading4}
             </span>
           </h1>
@@ -37,7 +37,7 @@ const Landing = (props) => {
 
       <div className=" overflow-hidden flex-col w-[100%] justify-center items-center  xxs:pt-5 md:mb-8">
         <div className="  pt-5 xxs:flex-col lg:flex-row  ">
-          <p className="font-raleway text-center xxs:text-2xl sm:text-3xl lg:mr-3 xxs:mb-5">
+          <p className="font-raleway text-center xxs:text-3xl sm:text-3xl lg:mr-3 xxs:mb-5">
             {props.para3}
           </p>
 
@@ -107,7 +107,7 @@ const Landing = (props) => {
             />
           </div>
         </div>
-        </div>
+      </div>
     </>
   );
 };

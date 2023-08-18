@@ -59,14 +59,12 @@ function App() {
         LandingImg={LandingImg}
       />
       <Overview />
-      <div className="flex">
-        <h1 className="text-left xxs:mt-[5rem] md:mt-[10rem] xxs:ml-2  lg:ml-9 xxs:mb-[1rem] md:mb-[3rem] pb-3 overflow-hidden whitespace-nowrap animate-type font-raleway  font-bold xl:text-6xl lg:text-5xl md:text-4xl sm:text-2xl xs:text-2xl xs:pl-1 xxs:text-xl">
+      <div className="sm:text-center ">
+        <h1 className="lg:text-left  xxs:mt-[5rem] md:mt-[10rem] xxs:ml-2 sm:ml-0 lg:ml-9 xxs:mb-[1rem] md:mb-[3rem] pb-3   font-raleway  font-bold xl:text-6xl lg:text-5xl md:text-5xl sm:text-[35px] xs:text-[27.5px]  xxs:text-[22px]">
           Getting
           <span className="text-webRed xxs:px-1 sm:px-2">started</span>
           <span>is</span>
-          <span className="text-webRed xxs:pl-1  sm:pl-2">
-            {window.innerWidth <= 500 ? <br /> : ""}easy!
-          </span>
+          <span className="text-webRed xxs:pl-1  sm:pl-2">easy!</span>
         </h1>
       </div>
 
@@ -91,8 +89,8 @@ function App() {
         />
       </div>
 
-      <div className="xxs:mt-[5rem] flex lg:mt-[10rem] xxs:ml-5 lg:ml-9">
-        <h2 className="text-left xxs:ml-2 lg:ml-5 mb-[3rem] pb-3 overflow-hidden whitespace-nowrap  animate-type font-raleway   font-bold xl:text-6xl lg:text-5xl md:text-4xl sm:text-3xl xs:text-4xl xxs:text-2xl">
+      <div className="xxs:mt-[5rem] xxs:text-center lg:mt-[10rem] lg:ml-9">
+        <h2 className="lg:text-left xxs:ml-2 lg:ml-5 mb-[3rem] pb-3 overflow-hidden whitespace-nowrap  animate-type font-raleway   font-bold xl:text-6xl lg:text-5xl md:text-5xl sm:text-[35px] xs:text-4xl xxs:text-3xl">
           How it
           <span className="text-webRed pl-1">Works?</span>
         </h2>
@@ -102,8 +100,8 @@ function App() {
         <RoadMap />
       </div>
 
-      <div className="xxs:mt-[1rem] flex-col md:my-[5rem]   lg:mt-[10rem] lg:ml-8 mb-5 xs:ml-0 xxs:ml-3 xs:mx-4">
-        <h2 className="lg:text-left xs:ml-2 xs:text-center lg:ml-5 pb-1 overflow-hidden whitespace-nowrap font-raleway   font-bold xl:text-6xl lg:text-5xl md:text-4xl sm:text-2xl xs:text-2xl xxs:text-[17px]">
+      <div className="xxs:mt-[1rem]  md:my-[5rem]   lg:mt-[10rem] lg:ml-8 mb-5 xs:ml-0 xxs:ml-3 xs:mx-4">
+        <h2 className="lg:text-left xs:ml-2 xs:text-center lg:ml-5 pb-1 overflow-hidden whitespace-nowrap font-raleway   font-bold xl:text-6xl lg:text-5xl md:text-5xl sm:text-3xl xs:text-2xl xxs:text-[17px]">
           You too can <span className="text-webRed">get</span> into your
           <span className="text-webRed ">
             {window.innerWidth <= 500 ? <br /> : ""} dream company!

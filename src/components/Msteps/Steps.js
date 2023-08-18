@@ -50,7 +50,7 @@ const Steps = () => {
               data-aos="fade-up"
               className="card card-compact md:w-96 mx-8 md:mx-auto course-card-shadow"
             >
-              <div className="card-body min-w-[30%] min-h-[90%]">
+              <div className="card-body min-w-[30%] min-h-[90%] xxs:mb-5">
                 <div className="st">
                   <div className="circle">
                     <p>2</p>
@@ -73,7 +73,7 @@ const Steps = () => {
               data-aos="fade-up"
               className="card card-compact md:w-96  mx-8 md:mx-auto course-card-shadow"
             >
-              <div className="card-body ">
+              <div className="card-body xxs:mb-5">
                 <div className="st">
                   <div className="circle">
                     <p>3</p>
@@ -98,7 +98,7 @@ const Steps = () => {
               data-aos="fade-up"
               className="card card-compact md:w-96 mx-8 md:mx-auto course-card-shadow"
             >
-              <div className="card-body">
+              <div className="card-body xxs:mb-5">
                 <div className="st">
                   <div className="circle">
                     <p>4</p>
@@ -150,7 +150,7 @@ const Steps = () => {
               data-aos="fade-up"
               className="card card-compact md:w-96 mx-8 md:mx-auto course-card-shadow"
             >
-              <div className="card-body">
+              <div className="card-body xxs:mb-5">
                 <div className="st">
                   <div className="circle">
                     <p>6</p>
