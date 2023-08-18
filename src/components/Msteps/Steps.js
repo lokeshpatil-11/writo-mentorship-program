@@ -20,7 +20,7 @@ const Steps = () => {
               <span style={{ color: "#ee4962" }}>look</span> back.
             </h1>
           </div>
-          <div className="mt-4 grid justify-center lg:grid-cols-3 md:grid-cols-2 gap-y-5  md:gap-y-6 lg:px-9 md:px-7">
+          <div className="mt-4 grid justify-center lg:grid-cols-3 md:grid-cols-2 gap-y-5  md:gap-y-6 lg:px-9 lg:pb-8 xxs:pb-6 sm:pb-7 md:px-7">
             <div
               data-aos="fade-up"
               className="card card-compact md:w-96 mx-8  min-h-[70%] md:mx-auto course-card-shadow"
@@ -96,7 +96,7 @@ const Steps = () => {
             </div>
             <div
               data-aos="fade-up"
-              className="card mb-10 card-compact md:w-96 mx-8 min-h-[70%] md:mx-auto course-card-shadow"
+              className="card lg:pb-7 xxs:pb-4 sm:pb-5 card-compact md:w-96 min-h-[70%] mx-8 md:mx-auto course-card-shadow "
             >
               <div className="card-body xxs:mb-5">
                 <div className="st">
@@ -122,9 +122,9 @@ const Steps = () => {
             </div>
             <div
               data-aos="fade-up"
-              className="card mb-10 card-compact md:w-96 min-h-[70%] mx-8 md:mx-auto course-card-shadow"
+              className="card card-compact xxs:pb-4 sm:pb-5 md:w-96 min-h-[70%] mx-8 md:mx-auto course-card-shadow"
             >
-              <div className="card-body">
+              <div className="card-body"> 
                 <div className="st">
                   <div className="circle">
                     <p>5</p>
@@ -148,7 +148,7 @@ const Steps = () => {
             </div>
             <div
               data-aos="fade-up"
-              className="card card-compact md:w-96 mx-8 min-h-[70%] md:mx-auto course-card-shadow mb-10"
+              className="card card-compact xxs:pb-4 sm:pb-5 md:w-96 mx-8 min-h-[70%] md:mx-auto course-card-shadow"
             >
               <div className="card-body xxs:mb-5">
                 <div className="st">
