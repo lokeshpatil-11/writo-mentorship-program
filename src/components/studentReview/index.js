@@ -1,9 +1,10 @@
 import React from "react";
+import "./index.css";
 
 const StudentReview = (props) => {
   const { video } = props;
   return (
-    <div className="xxs:ml-[15px] xs:ml-[22px]  md:ml-0 p-2 xxs:w-[90%] min-w-[30%] min-h-[95%] md:w-[95%] lg:w-[90%] lg:mr-4 border-solid  bg-opacity-10 mb-5 shadow-3xl hover:shadow-4xl hover:bg-opacity-20 rounded-[30px] bg-webGreen">
+    <div className="xxs:ml-[15px] xs:ml-[22px]  md:ml-0 p-2 xxs:w-[90%] min-w-[30%] min-h-[95%] md:w-[95%] lg:w-[90%] lg:mr-4 border-solid  bg-opacity-10 mb-5 review-shadow hover:bg-opacity-20 rounded-[30px] bg-webGreen">
       <div className="flex items-center">
         <img src={props.img} alt="mentor img" className="w-6 h-6 mt-5" />
         <div className=" md:ml-5 xxs:ml-2">

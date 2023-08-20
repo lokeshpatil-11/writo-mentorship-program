@@ -35,37 +35,6 @@ module.exports = {
       fontFamily: {
         raleway: ["Raleway", "sans-serif", "cursive"],
       },
-      keyframes: {
-        leftToRight: {
-          "0%": {
-            transform: "translateX(-100%)",
-          },
-          "100%": {
-            transform: "translateX(100%)",
-          },
-        },
-        rightToLeft: {
-          "0%": {
-            transform: "translateX(100%)",
-          },
-          "100%": {
-            transform: "translateX(-100%)",
-          },
-        },
-      },
-
-      animation: {
-        leftToRight: "leftToRight 20s  infinite linear ",
-        rightToLeft: "rightToLeft 20s 2s infinite linear ",
-      },
-
-      boxShadow: {
-        "3xl": "0 5px 0 #1ab79d ",
-        "4xl": "5px 5px 5px #1ab79d ",
-      },
-      dropShadow: {
-        "5xl": " 0 20px 10px #ee4962 ",
-      },
     },
   },
 

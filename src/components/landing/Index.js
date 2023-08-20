@@ -45,32 +45,32 @@ const Landing = (props) => {
             <img
               src={props.googleImg}
               alt="google img"
-              className="sm:w-6 sm:h-6 md:w-[75px] md:h-[75px] rounded-2xl  border-solid shadow-4xl md:p-3 xxs:p-2 xxs:w-[44px] xxs:h-[44px] "
+              className="sm:w-6 sm:h-6 md:w-[75px] md:h-[75px] rounded-2xl  border-solid img-shadow md:p-3 xxs:p-2 xxs:w-[44px] xxs:h-[44px] "
             />
             <img
               src={props.appleImg}
               alt="apple img"
-              className="sm:w-6 sm:h-6 md:w-[75px] md:h-[75px] rounded-2xl  border-solid shadow-4xl md:p-3 xxs:p-2 xxs:w-[44px] xxs:h-[44px]"
+              className="sm:w-6 sm:h-6 md:w-[75px] md:h-[75px] rounded-2xl  border-solid img-shadow md:p-3 xxs:p-2 xxs:w-[44px] xxs:h-[44px]"
             />
             <img
               src={props.microsoftImg}
               alt="microsoft img"
-              className="sm:w-6 sm:h-6 md:w-[75px] md:h-[75px] rounded-2xl border-solid shadow-4xl md:p-3 xxs:p-2 xxs:w-[44px] xxs:h-[44px]"
+              className="sm:w-6 sm:h-6 md:w-[75px] md:h-[75px] rounded-2xl border-solid img-shadow md:p-3 xxs:p-2 xxs:w-[44px] xxs:h-[44px]"
             />
             <img
               src={props.amazonImg}
               alt="amazon img"
-              className="sm:w-6 sm:h-6 md:w-[75px] md:h-[75px] rounded-2xl  border-solid shadow-4xl md:p-3 xxs:p-2 xxs:w-[44px] xxs:h-[44px]  "
+              className="sm:w-6 sm:h-6 md:w-[75px] md:h-[75px] rounded-2xl  border-solid img-shadow md:p-3 xxs:p-2 xxs:w-[44px] xxs:h-[44px]  "
             />
             <img
               src={props.airbnbImg}
               alt="airbnb img"
-              className="sm:w-6 sm:h-6 md:w-[75px] md:h-[75px] rounded-2xl  border-solid shadow-4xl md:p-3 xxs:p-2 xxs:w-[44px] xxs:h-[44px] "
+              className="sm:w-6 sm:h-6 md:w-[75px] md:h-[75px] rounded-2xl  border-solid img-shadow  md:p-3 xxs:p-2 xxs:w-[44px] xxs:h-[44px] "
             />
             <img
               src={props.youtubeImg}
               alt="youtube img"
-              className="sm:w-6 sm:h-6 md:w-[75px] md:h-[75px] rounded-2xl border-solid shadow-4xl md:p-3 xxs:p-2 xxs:w-[44px] xxs:h-[44px] "
+              className="sm:w-6 sm:h-6 md:w-[75px] md:h-[75px] rounded-2xl border-solid img-shadow md:p-3 xxs:p-2 xxs:w-[44px] xxs:h-[44px] "
             />
           </div>
 
@@ -78,32 +78,32 @@ const Landing = (props) => {
             <img
               src={props.googleImg}
               alt="google img"
-              className="sm:w-6 sm:h-6 md:w-[75px] md:h-[75px] rounded-2xl sm:mr-5 border-solid shadow-4xl md:p-3 xxs:p-2 xxs:w-[44px] xxs:h-[44px] "
+              className="sm:w-6 sm:h-6 md:w-[75px] md:h-[75px] rounded-2xl sm:mr-5 border-solid img-shadow md:p-3 xxs:p-2 xxs:w-[44px] xxs:h-[44px] "
             />
             <img
               src={props.appleImg}
               alt="apple img"
-              className="sm:w-6 sm:h-6 md:w-[75px] md:h-[75px] rounded-2xl sm:mr-5 border-solid shadow-4xl md:p-3 xxs:p-2 xxs:w-[44px] xxs:h-[44px] xxs:mr-2 "
+              className="sm:w-6 sm:h-6 md:w-[75px] md:h-[75px] rounded-2xl sm:mr-5 border-solid img-shadow md:p-3 xxs:p-2 xxs:w-[44px] xxs:h-[44px] xxs:mr-2 "
             />
             <img
               src={props.microsoftImg}
               alt="microsoft img"
-              className="sm:w-6 sm:h-6 md:w-[75px] md:h-[75px] rounded-2xl sm:mr-5 border-solid shadow-4xl md:p-3 xxs:p-2 xxs:w-[44px] xxs:h-[44px] xxs:mr-2 "
+              className="sm:w-6 sm:h-6 md:w-[75px] md:h-[75px] rounded-2xl sm:mr-5 border-solid img-shadow md:p-3 xxs:p-2 xxs:w-[44px] xxs:h-[44px] xxs:mr-2 "
             />
             <img
               src={props.amazonImg}
               alt="amazon img"
-              className="sm:w-6 sm:h-6 md:w-[75px] md:h-[75px] rounded-2xl sm:mr-5 border-solid shadow-4xl md:p-3 xxs:p-2 xxs:w-[44px] xxs:h-[44px] xxs:mr-2 "
+              className="sm:w-6 sm:h-6 md:w-[75px] md:h-[75px] rounded-2xl sm:mr-5 border-solid img-shadow md:p-3 xxs:p-2 xxs:w-[44px] xxs:h-[44px] xxs:mr-2 "
             />
             <img
               src={props.airbnbImg}
               alt="airbnb img"
-              className="sm:w-6 sm:h-6 md:w-[75px] md:h-[75px] rounded-2xl sm:mr-5 border-solid shadow-4xl md:p-3 xxs:p-2 xxs:w-[44px] xxs:h-[44px] xxs:mr-2 "
+              className="sm:w-6 sm:h-6 md:w-[75px] md:h-[75px] rounded-2xl sm:mr-5 border-solid img-shadow md:p-3 xxs:p-2 xxs:w-[44px] xxs:h-[44px] xxs:mr-2 "
             />
             <img
               src={props.youtubeImg}
               alt="youtube img"
-              className="sm:w-6 sm:h-6 md:w-[75px] md:h-[75px] rounded-2xl sm:mr-5 border-solid shadow-4xl md:p-3 xxs:p-2 xxs:w-[44px] xxs:h-[44px] xxs:mr-2 "
+              className="sm:w-6 sm:h-6 md:w-[75px] md:h-[75px] rounded-2xl sm:mr-5 border-solid img-shadow md:p-3 xxs:p-2 xxs:w-[44px] xxs:h-[44px] xxs:mr-2 "
             />
           </div>
         </div>
