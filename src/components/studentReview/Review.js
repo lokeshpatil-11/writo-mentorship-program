@@ -26,7 +26,7 @@ const responsive = {
 export default function Review() {
   return (
     <div>
-        <div className="xxs:mt-[1rem]  md:my-[5rem]   lg:mt-[10rem] lg:ml-8 mb-5 xs:ml-0 xxs:ml-3 xs:mx-4">
+        <div className="xxs:mt-[1rem]  md:my-[5rem]   lg:mt-[10rem] lg:ml-0 mb-5 xs:ml-0 xxs:ml-3 xs:mx-4">
         <h2 className="lg:text-center xs:ml-2 xs:text-center lg:ml-5 pb-1 overflow-hidden whitespace-nowrap font-raleway   font-bold xl:text-6xl lg:text-6xl md:text-5xl sm:text-[2rem] xs:text-[1.7rem] xxs:text-[23px]">
           You too can <span className="text-webRed">get</span> into your
           <br />

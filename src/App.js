@@ -19,9 +19,6 @@ function App() {
       <GetStart/>
       <HowItWorks/>
       <Review/>      
-
-      
-
       <Steps />
       <Mentors />
       <FAQS />

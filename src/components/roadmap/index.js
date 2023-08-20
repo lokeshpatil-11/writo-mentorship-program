@@ -1,6 +1,6 @@
 import React from "react";
 import "./index.css";
-import processImg from "../../images/processImg.png";
+import processImg from "../landing/images/processImg.png";
 
 const RoadMap = (props) => {
   return (
