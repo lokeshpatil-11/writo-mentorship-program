@@ -11,7 +11,7 @@ export default function HowItWorks() {
         </h2>
       </div>
 
-      <div className="flex lg:justify-around lg:mt-[5rem]  items-center  xxs:flex-col xxs:ml-2 md:mx-8 lg:flex-row ">
+      <div className=" lg:mt-[5rem] overflow-hidden  items-center ">
         <RoadMap mentorshipPathImg={mentorshipPathImg} />
       </div>
     </div>
