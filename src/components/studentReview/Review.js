@@ -1,37 +1,37 @@
-import React from 'react'
-import StudentReview from './index'
-import Carousel from 'react-multi-carousel'
-import MmentorImg from '../landing/images/MmentorImg.png'
+import React from "react";
+import StudentReview from "./index";
+import Carousel from "react-multi-carousel";
+import MmentorImg from "../landing/images/MmentorImg.png";
 
 const responsive = {
-    superLargeDesktop: {
-      // the naming can be any, depends on you.
-      breakpoint: { max: 4000, min: 3000 },
-      items: 5,
-    },
-    desktop: {
-      breakpoint: { max: 3000, min: 1024 },
-      items: 3,
-    },
-    tablet: {
-      breakpoint: { max: 1024, min: 464 },
-      items: 2,
-    },
-    mobile: {
-      breakpoint: { max: 464, min: 0 },
-      items: 1,
-    },
-  };
+  superLargeDesktop: {
+    // the naming can be any, depends on you.
+    breakpoint: { max: 4000, min: 3000 },
+    items: 5,
+  },
+  desktop: {
+    breakpoint: { max: 3000, min: 1024 },
+    items: 3,
+  },
+  tablet: {
+    breakpoint: { max: 1024, min: 464 },
+    items: 2,
+  },
+  mobile: {
+    breakpoint: { max: 464, min: 0 },
+    items: 1,
+  },
+};
 
 export default function Review() {
   return (
     <div>
-        <div className="xxs:mt-[1rem]  md:my-[5rem]   lg:mt-[10rem] lg:ml-0 mb-5 xs:ml-0 xxs:ml-3 xs:mx-4">
+      <div className="xxs:mt-[1rem]  md:my-[5rem]   lg:mt-[10rem] lg:ml-0 mb-5 xs:ml-0 xxs:ml-3 xs:mx-4">
         <h2 className="lg:text-center xs:ml-2 xs:text-center lg:ml-5 pb-1 overflow-hidden whitespace-nowrap font-raleway   font-bold xl:text-6xl lg:text-6xl md:text-5xl sm:text-[2rem] xs:text-[1.7rem] xxs:text-[23px]">
-          You too can <span className="text-webRed">get</span> into your
+          You too can <span className="text-webRed">get</span> into
           <br />
           <span className="text-webRed ">
-            {window.innerWidth <= 1000 ? <br /> : ""} dream company!
+            {window.innerWidth <= 1000 ? <br /> : ""} your dream company!
           </span>
         </h2>
       </div>
@@ -79,5 +79,5 @@ export default function Review() {
         />
       </Carousel>
     </div>
-  )
+  );
 }
