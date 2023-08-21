@@ -70,7 +70,7 @@ const FAQS = () => {
                                         <div className={`animation ${toggle1 ? 'openCollapse' : ''} collapseContent`} ref={contentRef1}>
                                                 <article className='article'>
                                                         <div className="hr-line"></div>
-                                                        <p>Yes, absolutely. This program is highly suitable for you if you have an interview coming up. As this mentorship is 1:1 and completely personalised, there are no restrictions on the timeline. Be it 15 days or 1 month, your mentor will plan the timeline and preparation based on your upcoming interview schedule and help you crack it in the best possible manner. If you want to enrol right away to prepare for an upcoming interview, you may select your mentor, make the payment and get started in an instant. For any doubts related to enrolment, please get in touch with us at contactus@preplaced.in. We’d be happy to help you.</p>
+                                                        <p>Yes, absolutely. This program is highly suitable for you if you have an interview coming up. As this mentorship is 1:1 and completely personalised, there are no restrictions on the timeline. Be it 15 days or 1 month, your mentor will plan the timeline and preparation based on your upcoming interview schedule and help you crack it in the best possible manner. If you want to enrol right away to prepare for an upcoming interview, you may select your mentor, make the payment and get started in an instant. For any doubts related to enrolment, please get in touch with us at contactus@writo.live. We’d be happy to help you.</p>
                                                 </article>
                                         </div>
                                 </div>
@@ -78,13 +78,13 @@ const FAQS = () => {
                                         <h1
                                                 className='flex p-4 items-center justify-between cursor-pointer'
                                                 onClick={toggleHandle2}>
-                                                Q2. Who are Preplaced mentors?
+                                                Q2. Who are writo mentors?
                                                 {toggle2 ? minus : plus}
                                         </h1>
                                         <div className={`animation ${toggle2 ? 'openCollapse' : ''} collapseContent`} ref={contentRef2}>
                                                 <article>
                                                         <div className="hr-line"></div>
-                                                        <p>Our mentors are top industry experts who are associated with global brands and companies across tiers. They are selected to work as mentors after a thorough screening process. We, at Preplaced, ensure that you always get the best-qualified mentors to guide you.</p>
+                                                        <p>Our mentors are top industry experts who are associated with global brands and companies across tiers. They are selected to work as mentors after a thorough screening process. We, at writo, ensure that you always get the best-qualified mentors to guide you.</p>
                                                 </article>
                                         </div>
                                 </div>
@@ -126,7 +126,7 @@ const FAQS = () => {
                                         <div className={`animation ${toggle5 ? 'openCollapse' : ''} collapseContent`} ref={contentRef5}>
                                                 <article>
                                                         <div className="hr-line"></div>
-                                                        <p>This long-term interview preparation mentorship is suitable for people who want to upgrade their careers and get into their dream job in a strategic manner. Whether you’re a fresher or someone with 10 years of experience, we have the suitable mentors and resources to pave the path for your interview success. Preplaced is India’s first platform that focuses on practising through personalised and customisable mentorship programs that aim at complete and all-rounded interview preparation.</p>
+                                                        <p>This long-term interview preparation mentorship is suitable for people who want to upgrade their careers and get into their dream job in a strategic manner. Whether you’re a fresher or someone with 10 years of experience, we have the suitable mentors and resources to pave the path for your interview success. writo is India’s first platform that focuses on practising through personalised and customisable mentorship programs that aim at complete and all-rounded interview preparation.</p>
                                                 </article>
                                         </div>
                                 </div>
