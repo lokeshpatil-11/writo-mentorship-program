@@ -6,8 +6,8 @@ const RoadMap = (props) => {
   const [offsetX, setOffsetX] = React.useState(0);
 
   const handlers = useSwipeable({
-    onSwipedLeft: () => handleSwipe(100),
-    onSwipedRight: () => handleSwipe(-100),
+    onSwipedLeft: () => handleSwipe(-100),
+    onSwipedRight: () => handleSwipe(100),
   });
 
   const handleSwipe = (deltaX) => {
